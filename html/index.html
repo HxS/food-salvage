@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<meta charset="utf-8">
+
+	<title></title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="shortcut icon" href="">
+
+	<link rel="stylesheet" href="../wp/css/font-awesome.css">
+	<link rel="stylesheet" href="../wp/css/style.css">
+	<link rel="stylesheet" href="../wp/css/jquery.bxslider.css">
+
+
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="../wp/js/html5.js"></script>
+		<script type="text/javascript" src="../wp/js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<!--[if (gte IE 6)&(lte IE 8)]>
+		<script type="text/javascript" src="../wp/js/selectivizr-min.js"></script>
+	<![endif]-->
+
+
+</head>
+<body>
+
+	<header id="header" class="clearfix">
+		<div class="container">
+
+		</div>
+	</header>
+
+	<div id="slider">
+		<div class="container">
+		</div>
+	</div>
+
+	<div id="wrapper">
+
+		<div id="top" class="container clearfix">
+			<!-- idはcssを考慮しそれぞれのページ <div id="blog" class="container clearfix"> -->
+			<div id="contents">
+
+			</div>
+		</div>
+
+	</div>
+
+	<footer id="footer">
+		<div class="container clearfix">
+		</div>
+		<div id="copyright">
+		</div>
+	</footer>
+	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<script src="../wp/js/jquery.js"></script>
+	<script src="../wp/js/bxslider.js"></script>
+	<script src="../wp/js/main.js"></script>
+
+	<script>
+		$('#slider .bxslider').bxSlider({
+		  pagerCustom: '#bx-pager'
+		});
+  </script>
+
+</body>
+</html>
