@@ -132,7 +132,6 @@ a {
 		text-align: center;
 		.main-text-area {
 			display: inline-block;
-			width:55%;
 			text-align: left;
 			vertical-align: middle;
 			.ttl {
@@ -143,19 +142,21 @@ a {
 				font-family: 'Georgia Italic';
 				font-style: italic;
 			}
-			.text-content {
-				p {
-					font-size: .8rem;
-					font-family: '游ゴシック体';
-					line-height: 1.7rem;
-					padding: 1rem 0;
-				}
+		}
+		.text-content {
+			p {
+				font-size: .8rem;
+				font-family: '游ゴシック体';
+				line-height: 1.7rem;
+				padding: 1rem 0;
 			}
 		}
 		.main-logo {
 			display: inline-block;
-			width: 43%;
 			vertical-align: middle;
+		}
+		.line-img {
+			margin: 1.5rem 0;
 		}
 	}
 	.page-ttl-area {
@@ -363,6 +364,7 @@ a {
 #top {
 	.main-visual {
 		.main-text-area {
+			width: 55%;
 			.ttl {
 				font-size: 2.1rem;
 			}
@@ -376,7 +378,7 @@ a {
 			}
 		}
 		.main-logo {
-
+			width: 43%;
 		}
 	}
 	.banner-list-area {
@@ -503,9 +505,6 @@ a {
 				text-align: right;
 			}
 		}
-		.line-img {
-			margin: 1.5rem 0;
-		}
 	}
 	.dot-box-area {
 		.dot-box {
@@ -525,7 +524,86 @@ a {
 	action
 ---------------------*/
 #action {
-	
+	.main-visual {
+		.main-text-area {
+			width: 50%;
+			.mission-list {
+				margin: 3rem 0 0;
+				li {
+					margin: 0 0 3rem;
+					.mission-ttl {
+						font-family: 'Georgia Italic';
+						font-style: italic;
+						font-size: 1.25rem;
+						color: #385571;
+						border-bottom: 1px solid #385571;
+						margin: 0 0 .5rem;
+						width: 90%;
+					}
+					.mission-explain {
+				    font-size: .8rem;
+				    font-family: '游ゴシック体';
+				    line-height: 1.7rem;
+				    // padding: 1rem 0;
+					}
+					&:last-child {
+						margin: 0;
+					}
+				}
+			}
+		}
+		.main-logo {
+			width: 48%;
+		}
+		.right-text-area {
+			display: inline-block;
+			width: 48%;
+			text-align: left;
+			padding: 1rem 0 0 1.5rem;
+		}
+	}
+	.dot-box-area {
+		.dot-box {
+			.left-area {
+				width: 35%;
+			}
+			.right-area {
+				width: 63%;
+			}
+		}
+	}
+	.salvage-list-area {
+		.salvage-list {
+			text-align: center;
+			li {
+				display: inline-block;
+				width: 31%;
+				margin: 0 1.4rem 2rem 0;
+				&:nth-child(3n) {
+					margin: 0 0 2rem;
+				}
+				.salvage-list-img {
+					width: 10rem;
+					margin: 0 auto;
+				}
+				p {
+					&.salvage-ttl {
+						text-align: center;
+						font-size: .8125rem;
+						font-weight: bold;
+						color: #385571;
+						font-family: "游ゴシック体";
+						margin: 1rem 0;
+					}
+					&.explain {
+						text-align: left;
+						font-size: .75rem;
+						font-family: "游ゴシック体";
+					}
+				}
+			}
+		}
+	}
 }
 /*---------------------
 	about

@@ -118,44 +118,46 @@ a:hover {
 /* line 133, ../../html/sass/style.scss */
 #contents .main-visual .main-text-area {
   display: inline-block;
-  width: 55%;
   text-align: left;
   vertical-align: middle;
 }
-/* line 138, ../../html/sass/style.scss */
+/* line 137, ../../html/sass/style.scss */
 #contents .main-visual .main-text-area .ttl {
   font-size: 1.9rem;
 }
-/* line 141, ../../html/sass/style.scss */
+/* line 140, ../../html/sass/style.scss */
 #contents .main-visual .main-text-area .main-ttl {
   font-size: .75rem;
   font-family: 'Georgia Italic';
   font-style: italic;
 }
 /* line 147, ../../html/sass/style.scss */
-#contents .main-visual .main-text-area .text-content p {
+#contents .main-visual .text-content p {
   font-size: .8rem;
   font-family: '游ゴシック体';
   line-height: 1.7rem;
   padding: 1rem 0;
 }
-/* line 155, ../../html/sass/style.scss */
+/* line 154, ../../html/sass/style.scss */
 #contents .main-visual .main-logo {
   display: inline-block;
-  width: 43%;
   vertical-align: middle;
 }
-/* line 161, ../../html/sass/style.scss */
+/* line 158, ../../html/sass/style.scss */
+#contents .main-visual .line-img {
+  margin: 1.5rem 0;
+}
+/* line 162, ../../html/sass/style.scss */
 #contents .page-ttl-area {
   background: #fccf00;
   text-align: center;
   padding: 2rem 0;
 }
-/* line 165, ../../html/sass/style.scss */
+/* line 166, ../../html/sass/style.scss */
 #contents .page-ttl-area p {
   font-size: 1rem;
 }
-/* line 168, ../../html/sass/style.scss */
+/* line 169, ../../html/sass/style.scss */
 #contents .page-ttl-area .page-ttl {
   font-size: 1.5rem;
   color: #fff;
@@ -163,92 +165,92 @@ a:hover {
   font-style: italic;
   margin: 0 0 .5rem;
 }
-/* line 175, ../../html/sass/style.scss */
+/* line 176, ../../html/sass/style.scss */
 #contents .page-ttl-area .sub-ttl {
   font-size: .75rem;
   font-family: 'Georgia Italic';
   font-style: italic;
 }
-/* line 181, ../../html/sass/style.scss */
+/* line 182, ../../html/sass/style.scss */
 #contents .dot-box-area {
   margin: 2rem 0 4rem;
 }
-/* line 183, ../../html/sass/style.scss */
+/* line 184, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box {
   border: 3px dotted #385571;
   border-radius: 5px;
   padding: 2rem 2.25rem;
 }
-/* line 187, ../../html/sass/style.scss */
+/* line 188, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box p {
   font-family: '游ゴシック体';
 }
-/* line 190, ../../html/sass/style.scss */
+/* line 191, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .left-area {
   display: inline-block;
   vertical-align: top;
 }
-/* line 193, ../../html/sass/style.scss */
+/* line 194, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .left-area p {
   font-weight: bold;
 }
-/* line 195, ../../html/sass/style.scss */
+/* line 196, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .left-area p.b-txt {
   font-size: .95rem;
 }
-/* line 198, ../../html/sass/style.scss */
+/* line 199, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .left-area p.s-txt {
   font-size: .6px;
 }
-/* line 203, ../../html/sass/style.scss */
+/* line 204, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .right-area {
   display: inline-block;
   vertical-align: top;
 }
-/* line 206, ../../html/sass/style.scss */
+/* line 207, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .right-area p {
   font-size: .75rem;
   line-height: 1.5rem;
   margin: 0 0 1rem;
 }
-/* line 210, ../../html/sass/style.scss */
+/* line 211, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .right-area p:last-child {
   margin: 0;
 }
-/* line 217, ../../html/sass/style.scss */
+/* line 218, ../../html/sass/style.scss */
 #contents .contact-link-area {
   background: #fccf00;
   text-align: center;
   padding: 1.5rem 0 2rem;
 }
-/* line 221, ../../html/sass/style.scss */
+/* line 222, ../../html/sass/style.scss */
 #contents .contact-link-area p {
   margin: 0 0 1rem;
   font-size: .85rem;
 }
-/* line 226, ../../html/sass/style.scss */
+/* line 227, ../../html/sass/style.scss */
 #contents .contact-link-area .contact-link-list li {
   display: inline-block;
   width: 48%;
   margin: 0 .5rem 0 0;
 }
-/* line 230, ../../html/sass/style.scss */
+/* line 231, ../../html/sass/style.scss */
 #contents .contact-link-area .contact-link-list li:last-child {
   margin: 0;
 }
-/* line 233, ../../html/sass/style.scss */
+/* line 234, ../../html/sass/style.scss */
 #contents .contact-link-area .contact-link-list li a {
   display: block;
 }
-/* line 239, ../../html/sass/style.scss */
+/* line 240, ../../html/sass/style.scss */
 #contents .contact-link-area .contact-link-list li:last-child {
   margin: 0;
 }
-/* line 245, ../../html/sass/style.scss */
+/* line 246, ../../html/sass/style.scss */
 #contents .party-area {
   padding: 1.5rem 0;
 }
-/* line 247, ../../html/sass/style.scss */
+/* line 248, ../../html/sass/style.scss */
 #contents .party-area .party-logo {
   width: 10rem;
   margin: 0 auto;
@@ -257,59 +259,59 @@ a:hover {
 /*---------------------
 		ヘッダー
 ---------------------*/
-/* line 256, ../../html/sass/style.scss */
+/* line 257, ../../html/sass/style.scss */
 #header {
   border-top: 10px solid #fccf00;
   padding: 0 0 .5rem;
 }
-/* line 259, ../../html/sass/style.scss */
+/* line 260, ../../html/sass/style.scss */
 #header .head-logo {
   display: inline-block;
   width: 13rem;
 }
-/* line 262, ../../html/sass/style.scss */
+/* line 263, ../../html/sass/style.scss */
 #header .head-logo a {
   display: block;
 }
-/* line 266, ../../html/sass/style.scss */
+/* line 267, ../../html/sass/style.scss */
 #header .head-list-wrap {
   display: inline-block;
   width: 77%;
   text-align: right;
 }
-/* line 270, ../../html/sass/style.scss */
+/* line 271, ../../html/sass/style.scss */
 #header .head-list-wrap .nav-list {
   display: inline-block;
   width: 80%;
   text-align: right;
 }
-/* line 274, ../../html/sass/style.scss */
+/* line 275, ../../html/sass/style.scss */
 #header .head-list-wrap .nav-list li {
   display: inline-block;
   margin: 0 1rem 0 0;
 }
-/* line 277, ../../html/sass/style.scss */
+/* line 278, ../../html/sass/style.scss */
 #header .head-list-wrap .nav-list li a {
   font-size: .8rem;
   font-family: 'Georgia Italic';
   font-style: italic;
 }
-/* line 284, ../../html/sass/style.scss */
+/* line 285, ../../html/sass/style.scss */
 #header .head-list-wrap .sns-list {
   display: inline-block;
   width: 17%;
 }
-/* line 287, ../../html/sass/style.scss */
+/* line 288, ../../html/sass/style.scss */
 #header .head-list-wrap .sns-list li {
   display: inline-block;
   width: 2rem;
   margin: 0 1rem 0 0;
 }
-/* line 291, ../../html/sass/style.scss */
+/* line 292, ../../html/sass/style.scss */
 #header .head-list-wrap .sns-list li a {
   display: block;
 }
-/* line 297, ../../html/sass/style.scss */
+/* line 298, ../../html/sass/style.scss */
 #header .head-list-wrap .sns-list li:last-child {
   margin: 0;
 }
@@ -317,47 +319,47 @@ a:hover {
 /*---------------------
 		フッター
 ---------------------*/
-/* line 309, ../../html/sass/style.scss */
+/* line 310, ../../html/sass/style.scss */
 #footer .foot-link-list-area {
   background: #f0f0f0;
   padding: 1rem 0;
 }
-/* line 312, ../../html/sass/style.scss */
+/* line 313, ../../html/sass/style.scss */
 #footer .foot-link-list-area .foot-link-list {
   text-align: center;
 }
-/* line 314, ../../html/sass/style.scss */
+/* line 315, ../../html/sass/style.scss */
 #footer .foot-link-list-area .foot-link-list li {
   display: inline-block;
   margin: 0 2rem 0 0;
 }
-/* line 317, ../../html/sass/style.scss */
+/* line 318, ../../html/sass/style.scss */
 #footer .foot-link-list-area .foot-link-list li:last-child {
   margin: 0;
 }
-/* line 320, ../../html/sass/style.scss */
+/* line 321, ../../html/sass/style.scss */
 #footer .foot-link-list-area .foot-link-list li a {
   font-size: .8rem;
   font-family: 'Georgia Italic';
   display: block;
   font-style: italic;
 }
-/* line 329, ../../html/sass/style.scss */
+/* line 330, ../../html/sass/style.scss */
 #footer .copyright-area {
   background: #385571;
   padding: 1rem 0;
 }
-/* line 332, ../../html/sass/style.scss */
+/* line 333, ../../html/sass/style.scss */
 #footer .copyright-area p {
   display: inline-block;
   color: #fff;
   font-size: .7rem;
 }
-/* line 336, ../../html/sass/style.scss */
+/* line 337, ../../html/sass/style.scss */
 #footer .copyright-area p.copyright-text {
   width: 28%;
 }
-/* line 339, ../../html/sass/style.scss */
+/* line 340, ../../html/sass/style.scss */
 #footer .copyright-area p.text {
   text-align: right;
   width: 70%;
@@ -366,7 +368,7 @@ a:hover {
 /*---------------------
 	to-top
 ---------------------*/
-/* line 349, ../../html/sass/style.scss */
+/* line 350, ../../html/sass/style.scss */
 #to-top {
   position: fixed;
   right: 0;
@@ -374,7 +376,7 @@ a:hover {
   margin-bottom: 5rem;
   width: 4rem;
 }
-/* line 355, ../../html/sass/style.scss */
+/* line 356, ../../html/sass/style.scss */
 #to-top a {
   display: block;
 }
@@ -383,38 +385,46 @@ a:hover {
 	top
 ---------------------*/
 /* line 366, ../../html/sass/style.scss */
+#top .main-visual .main-text-area {
+  width: 55%;
+}
+/* line 368, ../../html/sass/style.scss */
 #top .main-visual .main-text-area .ttl {
   font-size: 2.1rem;
 }
-/* line 370, ../../html/sass/style.scss */
+/* line 372, ../../html/sass/style.scss */
 #top .main-visual .main-text-area p.main-text {
   font-size: 4rem;
 }
-/* line 383, ../../html/sass/style.scss */
+/* line 380, ../../html/sass/style.scss */
+#top .main-visual .main-logo {
+  width: 43%;
+}
+/* line 385, ../../html/sass/style.scss */
 #top .banner-list-area .banner-list {
   text-align: center;
 }
-/* line 385, ../../html/sass/style.scss */
+/* line 387, ../../html/sass/style.scss */
 #top .banner-list-area .banner-list li {
   display: inline-block;
   width: 310px;
   margin: 0 .5rem 0 0;
 }
-/* line 390, ../../html/sass/style.scss */
+/* line 392, ../../html/sass/style.scss */
 #top .banner-list-area .banner-list li:last-child {
   margin: 0;
 }
-/* line 396, ../../html/sass/style.scss */
+/* line 398, ../../html/sass/style.scss */
 #top .news-area {
   padding: 3rem 0;
 }
-/* line 398, ../../html/sass/style.scss */
+/* line 400, ../../html/sass/style.scss */
 #top .news-area .title-area {
   display: inline-block;
   width: 25%;
   vertical-align: top;
 }
-/* line 403, ../../html/sass/style.scss */
+/* line 405, ../../html/sass/style.scss */
 #top .news-area .title-area p.en {
   font-size: 1.25rem;
   font-family: 'Georgia Italic';
@@ -422,14 +432,14 @@ a:hover {
   margin: 0 0 1rem;
   color: #385571;
 }
-/* line 410, ../../html/sass/style.scss */
+/* line 412, ../../html/sass/style.scss */
 #top .news-area .title-area p.ja {
   padding: 0 0 0 5px;
   font-family: '游明朝体';
   font-size: .75rem;
   position: relative;
 }
-/* line 415, ../../html/sass/style.scss */
+/* line 417, ../../html/sass/style.scss */
 #top .news-area .title-area p.ja:before {
   content: "";
   position: absolute;
@@ -440,44 +450,44 @@ a:hover {
   background: #fccf00;
   margin: -.5rem 0 0 .5rem;
 }
-/* line 428, ../../html/sass/style.scss */
+/* line 430, ../../html/sass/style.scss */
 #top .news-area .news-list-area {
   display: inline-block;
   width: 73%;
 }
-/* line 432, ../../html/sass/style.scss */
+/* line 434, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li {
   border-bottom: 1px solid #eee;
 }
-/* line 434, ../../html/sass/style.scss */
+/* line 436, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info {
   display: inline-block;
   width: 23%;
 }
-/* line 437, ../../html/sass/style.scss */
+/* line 439, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info .date {
   font-size: .75rem;
   font-family: '游ゴシック体';
   margin: 0 .5rem 0 0;
 }
-/* line 442, ../../html/sass/style.scss */
+/* line 444, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info .news-category {
   background: #fccf00;
   font-size: .75rem;
   font-family: 'Georgia Italic';
   font-style: italic;
 }
-/* line 448, ../../html/sass/style.scss */
+/* line 450, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info .category {
   padding: .2rem 1.5rem;
 }
-/* line 452, ../../html/sass/style.scss */
+/* line 454, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area {
   display: inline-block;
   width: 75%;
   overflow: hidden;
 }
-/* line 456, ../../html/sass/style.scss */
+/* line 458, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area .news-title {
   display: inline-block;
   text-overflow: ellipsis;
@@ -485,12 +495,12 @@ a:hover {
   white-space: nowrap;
   display: block;
 }
-/* line 463, ../../html/sass/style.scss */
+/* line 465, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area .news-title a {
   font-size: .75rem;
   font-family: '游ゴシック体';
 }
-/* line 466, ../../html/sass/style.scss */
+/* line 468, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area .news-title a:hover {
   text-decoration: underline;
 }
@@ -498,49 +508,45 @@ a:hover {
 /*---------------------
 	concept
 ---------------------*/
-/* line 482, ../../html/sass/style.scss */
+/* line 484, ../../html/sass/style.scss */
 #concept .main-visual .main-ttl-area {
   text-align: left;
 }
-/* line 484, ../../html/sass/style.scss */
+/* line 486, ../../html/sass/style.scss */
 #concept .main-visual .main-ttl-area .main-ttl {
   font-size: .75rem;
   font-family: 'Georgia Italic';
   font-style: italic;
   margin: 0 0 .5rem;
 }
-/* line 490, ../../html/sass/style.scss */
+/* line 492, ../../html/sass/style.scss */
 #concept .main-visual .main-ttl-area .ttl {
   font-size: 1.9rem;
   line-height: 2.8rem;
 }
-/* line 496, ../../html/sass/style.scss */
+/* line 498, ../../html/sass/style.scss */
 #concept .main-visual .main-text-area {
   width: 53%;
 }
-/* line 499, ../../html/sass/style.scss */
+/* line 501, ../../html/sass/style.scss */
 #concept .main-visual .main-logo {
   width: 45%;
 }
-/* line 501, ../../html/sass/style.scss */
+/* line 503, ../../html/sass/style.scss */
 #concept .main-visual .main-logo p {
   font-size: .6rem;
   text-align: right;
 }
-/* line 506, ../../html/sass/style.scss */
-#concept .main-visual .line-img {
-  margin: 1.5rem 0;
-}
-/* line 511, ../../html/sass/style.scss */
+/* line 510, ../../html/sass/style.scss */
 #concept .dot-box-area .dot-box {
   text-align: center;
 }
-/* line 513, ../../html/sass/style.scss */
+/* line 512, ../../html/sass/style.scss */
 #concept .dot-box-area .dot-box .left-area {
   width: 49%;
   text-align: left;
 }
-/* line 517, ../../html/sass/style.scss */
+/* line 516, ../../html/sass/style.scss */
 #concept .dot-box-area .dot-box .right-area {
   width: 49%;
   text-align: left;
@@ -549,6 +555,92 @@ a:hover {
 /*---------------------
 	action
 ---------------------*/
+/* line 528, ../../html/sass/style.scss */
+#action .main-visual .main-text-area {
+  width: 50%;
+}
+/* line 530, ../../html/sass/style.scss */
+#action .main-visual .main-text-area .mission-list {
+  margin: 3rem 0 0;
+}
+/* line 532, ../../html/sass/style.scss */
+#action .main-visual .main-text-area .mission-list li {
+  margin: 0 0 3rem;
+}
+/* line 534, ../../html/sass/style.scss */
+#action .main-visual .main-text-area .mission-list li .mission-ttl {
+  font-family: 'Georgia Italic';
+  font-style: italic;
+  font-size: 1.25rem;
+  color: #385571;
+  border-bottom: 1px solid #385571;
+  margin: 0 0 .5rem;
+  width: 90%;
+}
+/* line 543, ../../html/sass/style.scss */
+#action .main-visual .main-text-area .mission-list li .mission-explain {
+  font-size: .8rem;
+  font-family: '游ゴシック体';
+  line-height: 1.7rem;
+}
+/* line 549, ../../html/sass/style.scss */
+#action .main-visual .main-text-area .mission-list li:last-child {
+  margin: 0;
+}
+/* line 555, ../../html/sass/style.scss */
+#action .main-visual .main-logo {
+  width: 48%;
+}
+/* line 558, ../../html/sass/style.scss */
+#action .main-visual .right-text-area {
+  display: inline-block;
+  width: 48%;
+  text-align: left;
+  padding: 1rem 0 0 1.5rem;
+}
+/* line 567, ../../html/sass/style.scss */
+#action .dot-box-area .dot-box .left-area {
+  width: 35%;
+}
+/* line 570, ../../html/sass/style.scss */
+#action .dot-box-area .dot-box .right-area {
+  width: 63%;
+}
+/* line 576, ../../html/sass/style.scss */
+#action .salvage-list-area .salvage-list {
+  text-align: center;
+}
+/* line 578, ../../html/sass/style.scss */
+#action .salvage-list-area .salvage-list li {
+  display: inline-block;
+  width: 31%;
+  margin: 0 1.4rem 2rem 0;
+}
+/* line 582, ../../html/sass/style.scss */
+#action .salvage-list-area .salvage-list li:nth-child(3n) {
+  margin: 0 0 2rem;
+}
+/* line 585, ../../html/sass/style.scss */
+#action .salvage-list-area .salvage-list li .salvage-list-img {
+  width: 10rem;
+  margin: 0 auto;
+}
+/* line 590, ../../html/sass/style.scss */
+#action .salvage-list-area .salvage-list li p.salvage-ttl {
+  text-align: center;
+  font-size: .8125rem;
+  font-weight: bold;
+  color: #385571;
+  font-family: "游ゴシック体";
+  margin: 1rem 0;
+}
+/* line 598, ../../html/sass/style.scss */
+#action .salvage-list-area .salvage-list li p.explain {
+  text-align: left;
+  font-size: .75rem;
+  font-family: "游ゴシック体";
+}
+
 /*---------------------
 	about
 ---------------------*/
@@ -565,17 +657,17 @@ a:hover {
 		スマホ対応
 ---------------------*/
 @media only screen and (max-width: 640px) {
-  /* line 558, ../../html/sass/style.scss */
+  /* line 636, ../../html/sass/style.scss */
   .sp {
     display: block;
   }
 
-  /* line 561, ../../html/sass/style.scss */
+  /* line 639, ../../html/sass/style.scss */
   .pc {
     display: none;
   }
 
-  /* line 564, ../../html/sass/style.scss */
+  /* line 642, ../../html/sass/style.scss */
   .container {
     width: 97%;
     margin: 0 auto;
