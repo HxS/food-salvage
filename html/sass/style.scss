@@ -155,9 +155,9 @@ a {
 			display: inline-block;
 			vertical-align: middle;
 		}
-		.line-img {
-			margin: 1.5rem 0;
-		}
+	}
+	.line-img {
+		margin: 1.5rem 0;
 	}
 	.page-ttl-area {
 		background: #fccf00;
@@ -351,8 +351,9 @@ a {
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	margin-bottom: 5rem;
+	margin: 0 0 5rem;
 	width: 4rem;
+	z-index: 100;
 	a {
 		display: block;
 	}
@@ -609,7 +610,128 @@ a {
 	about
 ---------------------*/
 #about {
-	
+	.team-area {
+		// padding: 3rem 0 0;
+	}
+	.about-content {
+		margin: 3rem 0;
+		.ttl {
+			font-size: 1.55rem;
+			font-family: 'Georgia Italic';
+			font-style: italic;
+			color: #385571;
+			margin: 0 0 2rem;
+		}
+	}
+	.team-area {
+		.team-list {
+			li {
+				margin: 0 0 3rem;
+				&:last-child {
+					margin: 0;
+				}
+				.photo-img-area {
+					display: inline-block;
+					width: 33%;
+					.photo-img {
+						width: 15rem;
+					}
+				}
+				.profile-area {
+					display: inline-block;
+					width: 66%;
+					vertical-align: top;
+					.position {
+						font-size: .75rem;
+						font-family: '游ゴシック体';
+						margin: 0 0 1rem;
+					}
+					.name {
+						font-size: 1.375rem;
+						font-family: 'ヒラギノ';
+						margin: 0 0 .5rem;
+						.en {
+							font-size: .625rem;
+							margin: 0 0 0 1rem;
+						}
+					}
+					.work {
+						font-size: .75rem;
+						font-family: '游ゴシック体';
+					}
+					.introduction {
+						font-size: .75rem;
+						font-family: '游ゴシック体';
+						line-height: 1.5rem;
+						margin: 2rem 0 0;
+						position: relative;
+						&:before {
+							content: "";
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 8px;
+							height: 1px;
+							background: #000;
+							margin: -1rem 0 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	.outline-area {
+		.outline-ttl-area {
+			display: inline-block;
+			width: 32%;
+			vertical-align: top;
+			.outline-ttl {
+				font-size: .8rem;
+				font-family: '游ゴシック体';
+				font-weight: bold;
+			}
+		}
+		.outline-table-area {
+			display: inline-block;
+			width: 67%;
+			.outline-table {
+				border-collapse: collapse;
+				width: 100%;
+				tbody {
+					tr {
+						border-bottom: 1px solid #cccccc;
+						th {
+							font-weight: normal;
+							font-size: .8125rem;
+							font-family: '游ゴシック体';
+							width: 18%;
+							text-align: left;
+							padding: .5rem 0;
+							vertical-align: top;
+						}
+						td {
+							font-size: .8125rem;
+							font-family: '游ゴシック体';
+							width: 82%;
+							padding: .5rem 0;
+							line-height: 1.5rem;
+						}
+						&:first-child {
+							th {
+								padding: 0 0 .5rem;
+							}
+							td {
+								padding: 0 0 .5rem;
+							}
+						}
+						&:last-child {
+							border: none;
+						}
+					}
+				}
+			}
+		}	
+	}
 }
 /*---------------------
 	contact

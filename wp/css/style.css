@@ -143,8 +143,8 @@ a:hover {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 158, ../../html/sass/style.scss */
-#contents .main-visual .line-img {
+/* line 159, ../../html/sass/style.scss */
+#contents .line-img {
   margin: 1.5rem 0;
 }
 /* line 162, ../../html/sass/style.scss */
@@ -373,10 +373,11 @@ a:hover {
   position: fixed;
   right: 0;
   bottom: 0;
-  margin-bottom: 5rem;
+  margin: 0 0 5rem;
   width: 4rem;
+  z-index: 100;
 }
-/* line 356, ../../html/sass/style.scss */
+/* line 357, ../../html/sass/style.scss */
 #to-top a {
   display: block;
 }
@@ -384,47 +385,47 @@ a:hover {
 /*---------------------
 	top
 ---------------------*/
-/* line 366, ../../html/sass/style.scss */
+/* line 367, ../../html/sass/style.scss */
 #top .main-visual .main-text-area {
   width: 55%;
 }
-/* line 368, ../../html/sass/style.scss */
+/* line 369, ../../html/sass/style.scss */
 #top .main-visual .main-text-area .ttl {
   font-size: 2.1rem;
 }
-/* line 372, ../../html/sass/style.scss */
+/* line 373, ../../html/sass/style.scss */
 #top .main-visual .main-text-area p.main-text {
   font-size: 4rem;
 }
-/* line 380, ../../html/sass/style.scss */
+/* line 381, ../../html/sass/style.scss */
 #top .main-visual .main-logo {
   width: 43%;
 }
-/* line 385, ../../html/sass/style.scss */
+/* line 386, ../../html/sass/style.scss */
 #top .banner-list-area .banner-list {
   text-align: center;
 }
-/* line 387, ../../html/sass/style.scss */
+/* line 388, ../../html/sass/style.scss */
 #top .banner-list-area .banner-list li {
   display: inline-block;
   width: 310px;
   margin: 0 .5rem 0 0;
 }
-/* line 392, ../../html/sass/style.scss */
+/* line 393, ../../html/sass/style.scss */
 #top .banner-list-area .banner-list li:last-child {
   margin: 0;
 }
-/* line 398, ../../html/sass/style.scss */
+/* line 399, ../../html/sass/style.scss */
 #top .news-area {
   padding: 3rem 0;
 }
-/* line 400, ../../html/sass/style.scss */
+/* line 401, ../../html/sass/style.scss */
 #top .news-area .title-area {
   display: inline-block;
   width: 25%;
   vertical-align: top;
 }
-/* line 405, ../../html/sass/style.scss */
+/* line 406, ../../html/sass/style.scss */
 #top .news-area .title-area p.en {
   font-size: 1.25rem;
   font-family: 'Georgia Italic';
@@ -432,14 +433,14 @@ a:hover {
   margin: 0 0 1rem;
   color: #385571;
 }
-/* line 412, ../../html/sass/style.scss */
+/* line 413, ../../html/sass/style.scss */
 #top .news-area .title-area p.ja {
   padding: 0 0 0 5px;
   font-family: '游明朝体';
   font-size: .75rem;
   position: relative;
 }
-/* line 417, ../../html/sass/style.scss */
+/* line 418, ../../html/sass/style.scss */
 #top .news-area .title-area p.ja:before {
   content: "";
   position: absolute;
@@ -450,44 +451,44 @@ a:hover {
   background: #fccf00;
   margin: -.5rem 0 0 .5rem;
 }
-/* line 430, ../../html/sass/style.scss */
+/* line 431, ../../html/sass/style.scss */
 #top .news-area .news-list-area {
   display: inline-block;
   width: 73%;
 }
-/* line 434, ../../html/sass/style.scss */
+/* line 435, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li {
   border-bottom: 1px solid #eee;
 }
-/* line 436, ../../html/sass/style.scss */
+/* line 437, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info {
   display: inline-block;
   width: 23%;
 }
-/* line 439, ../../html/sass/style.scss */
+/* line 440, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info .date {
   font-size: .75rem;
   font-family: '游ゴシック体';
   margin: 0 .5rem 0 0;
 }
-/* line 444, ../../html/sass/style.scss */
+/* line 445, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info .news-category {
   background: #fccf00;
   font-size: .75rem;
   font-family: 'Georgia Italic';
   font-style: italic;
 }
-/* line 450, ../../html/sass/style.scss */
+/* line 451, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info .category {
   padding: .2rem 1.5rem;
 }
-/* line 454, ../../html/sass/style.scss */
+/* line 455, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area {
   display: inline-block;
   width: 75%;
   overflow: hidden;
 }
-/* line 458, ../../html/sass/style.scss */
+/* line 459, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area .news-title {
   display: inline-block;
   text-overflow: ellipsis;
@@ -495,12 +496,12 @@ a:hover {
   white-space: nowrap;
   display: block;
 }
-/* line 465, ../../html/sass/style.scss */
+/* line 466, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area .news-title a {
   font-size: .75rem;
   font-family: '游ゴシック体';
 }
-/* line 468, ../../html/sass/style.scss */
+/* line 469, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area .news-title a:hover {
   text-decoration: underline;
 }
@@ -508,45 +509,45 @@ a:hover {
 /*---------------------
 	concept
 ---------------------*/
-/* line 484, ../../html/sass/style.scss */
+/* line 485, ../../html/sass/style.scss */
 #concept .main-visual .main-ttl-area {
   text-align: left;
 }
-/* line 486, ../../html/sass/style.scss */
+/* line 487, ../../html/sass/style.scss */
 #concept .main-visual .main-ttl-area .main-ttl {
   font-size: .75rem;
   font-family: 'Georgia Italic';
   font-style: italic;
   margin: 0 0 .5rem;
 }
-/* line 492, ../../html/sass/style.scss */
+/* line 493, ../../html/sass/style.scss */
 #concept .main-visual .main-ttl-area .ttl {
   font-size: 1.9rem;
   line-height: 2.8rem;
 }
-/* line 498, ../../html/sass/style.scss */
+/* line 499, ../../html/sass/style.scss */
 #concept .main-visual .main-text-area {
   width: 53%;
 }
-/* line 501, ../../html/sass/style.scss */
+/* line 502, ../../html/sass/style.scss */
 #concept .main-visual .main-logo {
   width: 45%;
 }
-/* line 503, ../../html/sass/style.scss */
+/* line 504, ../../html/sass/style.scss */
 #concept .main-visual .main-logo p {
   font-size: .6rem;
   text-align: right;
 }
-/* line 510, ../../html/sass/style.scss */
+/* line 511, ../../html/sass/style.scss */
 #concept .dot-box-area .dot-box {
   text-align: center;
 }
-/* line 512, ../../html/sass/style.scss */
+/* line 513, ../../html/sass/style.scss */
 #concept .dot-box-area .dot-box .left-area {
   width: 49%;
   text-align: left;
 }
-/* line 516, ../../html/sass/style.scss */
+/* line 517, ../../html/sass/style.scss */
 #concept .dot-box-area .dot-box .right-area {
   width: 49%;
   text-align: left;
@@ -555,19 +556,19 @@ a:hover {
 /*---------------------
 	action
 ---------------------*/
-/* line 528, ../../html/sass/style.scss */
+/* line 529, ../../html/sass/style.scss */
 #action .main-visual .main-text-area {
   width: 50%;
 }
-/* line 530, ../../html/sass/style.scss */
+/* line 531, ../../html/sass/style.scss */
 #action .main-visual .main-text-area .mission-list {
   margin: 3rem 0 0;
 }
-/* line 532, ../../html/sass/style.scss */
+/* line 533, ../../html/sass/style.scss */
 #action .main-visual .main-text-area .mission-list li {
   margin: 0 0 3rem;
 }
-/* line 534, ../../html/sass/style.scss */
+/* line 535, ../../html/sass/style.scss */
 #action .main-visual .main-text-area .mission-list li .mission-ttl {
   font-family: 'Georgia Italic';
   font-style: italic;
@@ -577,55 +578,55 @@ a:hover {
   margin: 0 0 .5rem;
   width: 90%;
 }
-/* line 543, ../../html/sass/style.scss */
+/* line 544, ../../html/sass/style.scss */
 #action .main-visual .main-text-area .mission-list li .mission-explain {
   font-size: .8rem;
   font-family: '游ゴシック体';
   line-height: 1.7rem;
 }
-/* line 549, ../../html/sass/style.scss */
+/* line 550, ../../html/sass/style.scss */
 #action .main-visual .main-text-area .mission-list li:last-child {
   margin: 0;
 }
-/* line 555, ../../html/sass/style.scss */
+/* line 556, ../../html/sass/style.scss */
 #action .main-visual .main-logo {
   width: 48%;
 }
-/* line 558, ../../html/sass/style.scss */
+/* line 559, ../../html/sass/style.scss */
 #action .main-visual .right-text-area {
   display: inline-block;
   width: 48%;
   text-align: left;
   padding: 1rem 0 0 1.5rem;
 }
-/* line 567, ../../html/sass/style.scss */
+/* line 568, ../../html/sass/style.scss */
 #action .dot-box-area .dot-box .left-area {
   width: 35%;
 }
-/* line 570, ../../html/sass/style.scss */
+/* line 571, ../../html/sass/style.scss */
 #action .dot-box-area .dot-box .right-area {
   width: 63%;
 }
-/* line 576, ../../html/sass/style.scss */
+/* line 577, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list {
   text-align: center;
 }
-/* line 578, ../../html/sass/style.scss */
+/* line 579, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list li {
   display: inline-block;
   width: 31%;
   margin: 0 1.4rem 2rem 0;
 }
-/* line 582, ../../html/sass/style.scss */
+/* line 583, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list li:nth-child(3n) {
   margin: 0 0 2rem;
 }
-/* line 585, ../../html/sass/style.scss */
+/* line 586, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list li .salvage-list-img {
   width: 10rem;
   margin: 0 auto;
 }
-/* line 590, ../../html/sass/style.scss */
+/* line 591, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list li p.salvage-ttl {
   text-align: center;
   font-size: .8125rem;
@@ -634,7 +635,7 @@ a:hover {
   font-family: "游ゴシック体";
   margin: 1rem 0;
 }
-/* line 598, ../../html/sass/style.scss */
+/* line 599, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list li p.explain {
   text-align: left;
   font-size: .75rem;
@@ -644,6 +645,139 @@ a:hover {
 /*---------------------
 	about
 ---------------------*/
+/* line 616, ../../html/sass/style.scss */
+#about .about-content {
+  margin: 3rem 0;
+}
+/* line 618, ../../html/sass/style.scss */
+#about .about-content .ttl {
+  font-size: 1.55rem;
+  font-family: 'Georgia Italic';
+  font-style: italic;
+  color: #385571;
+  margin: 0 0 2rem;
+}
+/* line 628, ../../html/sass/style.scss */
+#about .team-area .team-list li {
+  margin: 0 0 3rem;
+}
+/* line 630, ../../html/sass/style.scss */
+#about .team-area .team-list li:last-child {
+  margin: 0;
+}
+/* line 633, ../../html/sass/style.scss */
+#about .team-area .team-list li .photo-img-area {
+  display: inline-block;
+  width: 33%;
+}
+/* line 636, ../../html/sass/style.scss */
+#about .team-area .team-list li .photo-img-area .photo-img {
+  width: 15rem;
+}
+/* line 640, ../../html/sass/style.scss */
+#about .team-area .team-list li .profile-area {
+  display: inline-block;
+  width: 66%;
+  vertical-align: top;
+}
+/* line 644, ../../html/sass/style.scss */
+#about .team-area .team-list li .profile-area .position {
+  font-size: .75rem;
+  font-family: '游ゴシック体';
+  margin: 0 0 1rem;
+}
+/* line 649, ../../html/sass/style.scss */
+#about .team-area .team-list li .profile-area .name {
+  font-size: 1.375rem;
+  font-family: 'ヒラギノ';
+  margin: 0 0 .5rem;
+}
+/* line 653, ../../html/sass/style.scss */
+#about .team-area .team-list li .profile-area .name .en {
+  font-size: .625rem;
+  margin: 0 0 0 1rem;
+}
+/* line 658, ../../html/sass/style.scss */
+#about .team-area .team-list li .profile-area .work {
+  font-size: .75rem;
+  font-family: '游ゴシック体';
+}
+/* line 662, ../../html/sass/style.scss */
+#about .team-area .team-list li .profile-area .introduction {
+  font-size: .75rem;
+  font-family: '游ゴシック体';
+  line-height: 1.5rem;
+  margin: 2rem 0 0;
+  position: relative;
+}
+/* line 668, ../../html/sass/style.scss */
+#about .team-area .team-list li .profile-area .introduction:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 1px;
+  background: #000;
+  margin: -1rem 0 0;
+}
+/* line 684, ../../html/sass/style.scss */
+#about .outline-area .outline-ttl-area {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+}
+/* line 688, ../../html/sass/style.scss */
+#about .outline-area .outline-ttl-area .outline-ttl {
+  font-size: .8rem;
+  font-family: '游ゴシック体';
+  font-weight: bold;
+}
+/* line 694, ../../html/sass/style.scss */
+#about .outline-area .outline-table-area {
+  display: inline-block;
+  width: 67%;
+}
+/* line 697, ../../html/sass/style.scss */
+#about .outline-area .outline-table-area .outline-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+/* line 701, ../../html/sass/style.scss */
+#about .outline-area .outline-table-area .outline-table tbody tr {
+  border-bottom: 1px solid #cccccc;
+}
+/* line 703, ../../html/sass/style.scss */
+#about .outline-area .outline-table-area .outline-table tbody tr th {
+  font-weight: normal;
+  font-size: .8125rem;
+  font-family: '游ゴシック体';
+  width: 18%;
+  text-align: left;
+  padding: .5rem 0;
+  vertical-align: top;
+}
+/* line 712, ../../html/sass/style.scss */
+#about .outline-area .outline-table-area .outline-table tbody tr td {
+  font-size: .8125rem;
+  font-family: '游ゴシック体';
+  width: 82%;
+  padding: .5rem 0;
+  line-height: 1.5rem;
+}
+/* line 720, ../../html/sass/style.scss */
+#about .outline-area .outline-table-area .outline-table tbody tr:first-child th {
+  padding: 0 0 .5rem;
+}
+/* line 723, ../../html/sass/style.scss */
+#about .outline-area .outline-table-area .outline-table tbody tr:first-child td {
+  padding: 0 0 .5rem;
+}
+/* line 727, ../../html/sass/style.scss */
+#about .outline-area .outline-table-area .outline-table tbody tr:last-child {
+  border: none;
+}
+
 /*---------------------
 	contact
 ---------------------*/
@@ -657,17 +791,17 @@ a:hover {
 		スマホ対応
 ---------------------*/
 @media only screen and (max-width: 640px) {
-  /* line 636, ../../html/sass/style.scss */
+  /* line 758, ../../html/sass/style.scss */
   .sp {
     display: block;
   }
 
-  /* line 639, ../../html/sass/style.scss */
+  /* line 761, ../../html/sass/style.scss */
   .pc {
     display: none;
   }
 
-  /* line 642, ../../html/sass/style.scss */
+  /* line 764, ../../html/sass/style.scss */
   .container {
     width: 97%;
     margin: 0 auto;
