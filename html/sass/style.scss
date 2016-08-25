@@ -10,6 +10,8 @@
 	src: url('../fonts/rounded-mplus-2p-light.ttf')  format('truetype');
 } */
 
+
+
 /*---------------------
 		タグ初期設定
 ---------------------*/
@@ -32,8 +34,13 @@ body{
 	text-justify: inter-ideograph;
 	-webkit-font-smoothing: antialiased;
 	zoom: 1;
-	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	// font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	font-size: 16px;
+}
+
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+body {
+	font-family:  "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 }
 
 img {
@@ -107,7 +114,11 @@ a {
 	margin: 0 auto;
 	position: relative;
 }
-
+.service-container {
+	width: 920px;
+	margin: 0 auto;
+	position: relative;
+}
 // コンテンツ全体
 #wrapper {
 	#top {
@@ -139,7 +150,7 @@ a {
 			}
 			.main-ttl {
 				font-size: .75rem;
-				font-family: 'Georgia Italic';
+				// font-family: 'Georgia Italic';
 				font-style: italic;
 			}
 		}
@@ -169,13 +180,13 @@ a {
 		.page-ttl {
 			font-size: 1.5rem;
 			color: #fff;
-			font-family: 'Georgia Italic';
+			// font-family: 'Georgia Italic';
 			font-style: italic;
 			margin: 0 0 .5rem;
 		}
 		.sub-ttl {
 			font-size: .75rem;
-			font-family: 'Georgia Italic';
+			// font-family: 'Georgia Italic';
 			font-style: italic;
 		}
 	}
@@ -256,7 +267,7 @@ a {
 ---------------------*/
 #header {
 	border-top: 10px solid #fccf00;
-	padding: 0 0 .5rem;
+	padding: .5rem 0;
 	.head-logo {
 		display: inline-block;
 		width: 13rem;
@@ -277,7 +288,7 @@ a {
 				margin: 0 1rem 0 0;
 				a {
 					font-size: .8rem;
-					font-family: 'Georgia Italic';
+					// font-family: 'Georgia Italic';
 					font-style: italic;
 				}
 			}
@@ -320,7 +331,7 @@ a {
 				}
 				a {
 					font-size: .8rem;
-					font-family: 'Georgia Italic';
+					// font-family: 'Georgia Italic';
 					display: block;
 					font-style: italic;
 				}
@@ -405,7 +416,7 @@ a {
 			p {
 				&.en {
 					font-size: 1.25rem;
-					font-family: 'Georgia Italic';
+					// font-family: 'Georgia Italic';
 					font-style: italic;
 					margin: 0 0 1rem;
 					color: #385571;
@@ -445,7 +456,7 @@ a {
 						.news-category {
 							background: #fccf00;
 							font-size: .75rem;
-							font-family: 'Georgia Italic';
+							// font-family: 'Georgia Italic';
 							font-style: italic;
 						}
 						.category {
@@ -486,7 +497,7 @@ a {
 			text-align: left;
 			.main-ttl {
 				font-size: .75rem;
-		    font-family: 'Georgia Italic';
+		    // font-family: 'Georgia Italic';
 		    font-style: italic;
 		    margin: 0 0 .5rem;
 			}
@@ -533,7 +544,7 @@ a {
 				li {
 					margin: 0 0 3rem;
 					.mission-ttl {
-						font-family: 'Georgia Italic';
+						// font-family: 'Georgia Italic';
 						font-style: italic;
 						font-size: 1.25rem;
 						color: #385571;
@@ -617,7 +628,7 @@ a {
 		margin: 3rem 0;
 		.ttl {
 			font-size: 1.55rem;
-			font-family: 'Georgia Italic';
+			// font-family: 'Georgia Italic';
 			font-style: italic;
 			color: #385571;
 			margin: 0 0 2rem;
@@ -731,6 +742,36 @@ a {
 				}
 			}
 		}	
+	}
+}
+/*---------------------
+	service
+---------------------*/
+#service {
+	.service-list-area {
+		padding: 5rem 0;
+		.service-list {
+			text-align: center;
+			li {
+				float: left;
+				width: 446px;
+				margin: 0 1.75rem .5rem 0;
+				&:nth-child(even) {
+					margin: 0 0 .5rem;
+				}
+ 				.service-list-img {
+
+				}
+				p {
+					text-align: center;
+					font-size: 1rem;
+					font-weight: bold;
+					font-family: 'ヒラギノ';
+					color: #385571;
+					margin: .5rem 0 0;
+				}
+			}
+		}
 	}
 }
 /*---------------------
