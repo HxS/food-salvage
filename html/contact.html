@@ -39,8 +39,8 @@
 				</ul>
 
 				<ul class="sns-list">
-					<li><a href="#"><img src="../wp/images/icon-twitter.png"></a></li>
-					<li><a href="#"><img src="../wp/images/icon-facebook.png"></a></li>
+					<li><a href="https://twitter.com/salvageparty"><img src="../wp/images/icon-twitter.png"></a></li>
+					<li><a href="https://www.facebook.com/salvage.party/"><img src="../wp/images/icon-facebook.png"></a></li>
 				</ul>
 			</div>
 
@@ -62,21 +62,25 @@
 				<div class="contact-area">
 					<div class="s-container">
 						<div class="explain-area"><p>興味をもっていただき、ありがとうございます。どうぞお気軽にお問い合わせください。<br>下記フォームに必要事項を入力ください。</p></div>
-						<form action="mail.php" method="post">
+						<form role="form" action="mail.php" method="post">
+
 							<div class="radio-btn-area">
-								<label for="radio1"><span><input type="radio" id="radio1" name="contact"></span>フードサルベージに関するお問い合わせ</label>
-								<label for="radio2"><span><input type="radio" id="radio2" name="contact"></span>取材に関するお問い合わせ</label>
-								<label for="radio3"><span><input type="radio" id="radio3" name="contact"></span>その他のお問い合わせ</label>
+								<label for="radio1"><span><input type="radio" id="radio1" name="about-contact" value="フードサルベージに関するお問い合わせ" checked></span>フードサルベージに関するお問い合わせ</label>
+								<label for="radio2"><span><input type="radio" id="radio2" name="about-contact" value="取材に関するお問い合わせ"></span>取材に関するお問い合わせ</label>
+								<label for="radio3"><span><input type="radio" id="radio3" name="about-contact" value="その他のお問い合わせ"></span>その他のお問い合わせ</label>
 							</div>
+
 							<div class="input-area">
-								<p><input type="text" placeholder="お名前*" required></p>
-								<p><input type="text" placeholder="所属*" required></p>
-								<p><input type="text" placeholder="電話番号"></p>
-								<p><input type="email" placeholder="メールアドレス※" required></p>
-								<textarea placeholder="お問い合わせ内容"></textarea>
+								<p><input type="text" placeholder="お名前*" required name="name"></p>
+								<p><input type="text" placeholder="所属*" required name="belong"></p>
+								<p><input type="text" placeholder="電話番号" name="tel"></p>
+								<p><input type="email" placeholder="メールアドレス※" required name="email"></p>
+								<textarea placeholder="お問い合わせ内容" name="message"></textarea>
 							</div>
+
 							<!-- <p class="attension-txt">*は必須項目です。</p> -->
-							<p class="submit-right"><span class="left-txt">は必須項目です。</span><input type="submit" value="送信"></p>
+							<span class="left-txt">*は必須項目です。</span>
+							<p class="submit-right"><input type="submit" value="送信"></p>
 						</form>
 						<div class="explain-area">
 							<p>個人情報の取り扱いについて当フォームにてご提供いただく個人情報は、お問い合わせいただいた内容へのご回答、資料送付、その他ご連絡のために利用いたします。あらかじめご了承ください。お客様の同意なく、それ以外の第三者へ開示することはありません。ただし、法令その他国家機密等により開示が求められた場合は、その限りではありません。</p>
