@@ -14,7 +14,7 @@ $body_message = 'From: '.$field_name."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
 $body_message .= 'About: '.$field_about_contact."\n";
 $body_message .= 'Belong: '.$field_belong."\n";
-$body_message .= 'Tel: '.$field_message."\n";
+$body_message .= 'Tel: '.$field_tel."\n";
 $body_message .= 'Message: '.$field_message;
 
 $headers = 'From: '.$field_email."\r\n";
