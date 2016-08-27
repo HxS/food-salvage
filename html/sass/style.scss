@@ -1,18 +1,6 @@
 @charset "UTF-8";
 
 /*---------------------
-		フォント設定
----------------------*/
-/*
-@font-face {
-	font-family: 'rounded';
-	font-weight: normal;
-	src: url('../fonts/rounded-mplus-2p-light.ttf')  format('truetype');
-} */
-
-
-
-/*---------------------
 		タグ初期設定
 ---------------------*/
 * {
@@ -38,7 +26,7 @@ body{
 }
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
-body{
+body {
 	font-family: "メイリオ" ,Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 }
 
@@ -141,6 +129,7 @@ a {
 			vertical-align: middle;
 			.ttl {
 				font-size: 1.9rem;
+				font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 			}
 			.main-ttl {
 				font-size: .75rem;
@@ -418,6 +407,7 @@ a {
 				}
 				&.ja {
 					padding: 0 0 0 5px;
+					font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 					// font-family: '游明朝体';
 					font-size: .75rem;
 					position: relative;
@@ -645,6 +635,7 @@ a {
 					}
 					.name {
 						font-size: 1.375rem;
+						font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 						// font-family: 'ヒラギノ';
 						margin: 0 0 .5rem;
 						.en {
@@ -752,6 +743,7 @@ a {
 					text-align: center;
 					font-size: 1rem;
 					font-weight: bold;
+					font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 					// font-family: 'ヒラギノ';
 					color: #385571;
 					margin: .5rem 0 0;

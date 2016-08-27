@@ -22,14 +22,14 @@ $headers .= 'Reply-To: '.$field_email."\r\n";
 $mail_status = mail($mail_to, $subject, $body_message, $headers);
 if ($mail_status) { ?>
     <script language="javascript" type="text/javascript">
-        window.location = 'thanks.html#contact（※送信後に移動するページ）';
+        window.location = 'contact.html';
     </script>
 <?php
 }
 else { ?>
     <script language="javascript" type="text/javascript">
-        alert('メッセージ送信に失敗しました。こちらのメールアドレスへお問い合わせください。test@gmail.com（※自分のメールアドレス）');
-        window.location = 'index.html（※送信失敗後に移動するページ）';
+        alert('メッセージ送信に失敗しました。こちらのメールアドレスへお問い合わせください。test@gmail.com');
+        window.location = 'contact.html';
     </script>
 <?php
 }
