@@ -21,12 +21,54 @@
 	<![endif]-->
 
 
+  <style>
+    #contents .s-container{
+      height: 350px;
+    }
+    #contents .main-text-area{
+      position:absolute;
+      top: 140px;
+      left: 20px;
+      opacity:0;
+      animation-fill-mode:forwards;
+      animation-duration: 3s;
+      animation-delay: 3s;
+      animation-name: fadein;
+    }
+    #contents .main-logo{
+      position:absolute;
+      left: 0;
+      animation-fill-mode:forwards;
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
+    @keyframes slidein {
+      from {
+        left: 0;
+        transform: rotate(0deg);
+      }
+
+      to {
+        left: 450px;
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
 </head>
 <body>
 
 	<header id="header" class="clearfix">
 		<div class="container">
-			
+
 			<div class="head-logo"><h1><a href="#"><img src="../wp/images/logo-nav.png" alt="Food Salvage inc."></a></h1></div>
 
 			<div class="head-list-wrap">
@@ -171,7 +213,7 @@
 
 	<div id="to-top"><a><img src="../wp/images/back-to-top.png" alt="top"></a></div>
 	<!-- to-top -->
-	
+
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
