@@ -23,24 +23,36 @@
 
   <style>
     #contents .s-container{
-      height: 350px;
+      height: 355px;
     }
     #contents .main-text-area{
       position:absolute;
-      top: 140px;
-      left: 20px;
+      top: 152px;
+      left: 6px;
       opacity:0;
       animation-fill-mode:forwards;
       animation-duration: 3s;
       animation-delay: 3s;
       animation-name: fadein;
     }
-    #contents .main-logo{
+    #logo-upside{
+      width:262px;
       position:absolute;
-      left: 0;
-      animation-fill-mode:forwards;
+      top:6px;
+      left: 488px;
       animation-duration: 3s;
       animation-name: slidein;
+    }
+    #logo-downside{
+      width:343px;
+      position:absolute;
+      bottom:5px;
+      left: 449px;
+      opacity:0;
+      animation-fill-mode:forwards;
+      animation-duration: 3s;
+      animation-delay: 5s;
+      animation-name: fadein;
     }
     @keyframes slidein {
       from {
@@ -49,7 +61,7 @@
       }
 
       to {
-        left: 450px;
+        left: 488px;
         transform: rotate(360deg);
       }
     }
@@ -101,7 +113,8 @@
 							<p class="ttl">「捨てる」を、「救う」に。</p>
 						</div>
 						<div class="main-logo">
-							<img src="../wp/images/logo-big.png">
+							<img id="logo-upside" src="../wp/images/logo-big-upside.png">
+							<img id="logo-downside" src="../wp/images/logo-big-downside.png">
 						</div>
 					</div>
 				</div>
