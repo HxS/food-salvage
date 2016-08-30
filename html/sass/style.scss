@@ -64,10 +64,13 @@ a {
 	}
 	&:hover {
 		color: #000;
+	}
+}
+a,label,input[type="submit"] {
+	&:hover {
 		cursor: pointer;
 	}
 }
-
 /*---------------------
 		共通クラス
 ---------------------*/
@@ -895,19 +898,42 @@ a {
 		}
 	}
 	input[type="submit"] {
-			-webkit-appearance: noen;
-			-moz-appearance: none;
-			appearance: none;
-			background: #fccf00;
-			border: 1px solid #fccf00;
-			border-radius: 5px;
-			width: 210px;
-			height: 46px;
+		-webkit-appearance: noen;
+		-moz-appearance: none;
+		appearance: none;
+		background: #fccf00;
+		border: 3px solid #fccf00;
+		border-radius: 5px;
+		width: 210px;
+		height: 46px;
+		-webkit-transition: all .4s ease;
+		   -moz-transition: all .4s ease;
+		    -ms-transition: all .4s ease;
+		     -o-transition: all .4s ease;
+		        transition: all .4s ease;
+		&:hover {
+			background: #fff;
 		}
+	}
 	.explain-area {
 		margin: 1rem 0;
 		p {
 			font-size: .75rem;
+		}
+	}
+}
+.download-btn {
+	width: 210px;
+	text-align: center;
+	a {
+		display: block;
+		background: #fccf00;
+		border: 3px solid #fccf00;
+		border-radius: 5px;
+		font-size: .75rem;
+		padding: .5rem 0;
+		&:hover {
+			background: #fff;
 		}
 	}
 }
