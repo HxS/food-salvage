@@ -877,7 +877,6 @@ input, textarea {
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
-  font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
   color: #385571;
   margin: .5rem 0 0;
 }
@@ -885,29 +884,29 @@ input, textarea {
 /*---------------------
 	contact
 ---------------------*/
-/* line 798, ../../html/sass/style.scss */
+/* line 797, ../../html/sass/style.scss */
 #contact .contact-area {
   padding: 4rem 0;
 }
-/* line 800, ../../html/sass/style.scss */
+/* line 799, ../../html/sass/style.scss */
 #contact .contact-area .txt {
   font-size: .8125rem;
 }
-/* line 804, ../../html/sass/style.scss */
+/* line 803, ../../html/sass/style.scss */
 #contact form {
   font-size: .75rem;
   margin: 1.5rem 0 0;
   position: relative;
 }
-/* line 808, ../../html/sass/style.scss */
+/* line 807, ../../html/sass/style.scss */
 #contact form .radio-btn-area {
   margin: 0 0 1rem;
 }
-/* line 810, ../../html/sass/style.scss */
+/* line 809, ../../html/sass/style.scss */
 #contact form .radio-btn-area label {
   margin: 0 1rem 0 0;
 }
-/* line 812, ../../html/sass/style.scss */
+/* line 811, ../../html/sass/style.scss */
 #contact form .radio-btn-area label span {
   width: 20px;
   height: 20px;
@@ -916,7 +915,7 @@ input, textarea {
   display: inline-block;
   margin: 0 .5rem 0 0;
 }
-/* line 820, ../../html/sass/style.scss */
+/* line 819, ../../html/sass/style.scss */
 #contact form .radio-btn-area label input[type="radio"] {
   margin: 0px 0 0 1px;
   appearance: none;
@@ -928,34 +927,34 @@ input, textarea {
   background: transparent;
   border-radius: 5px;
 }
-/* line 830, ../../html/sass/style.scss */
+/* line 829, ../../html/sass/style.scss */
 #contact form .radio-btn-area label input[type="radio"]:checked {
   background: #cccccc;
   outline: none;
 }
-/* line 837, ../../html/sass/style.scss */
+/* line 836, ../../html/sass/style.scss */
 #contact form .input-area {
   margin: 1rem 0;
 }
-/* line 839, ../../html/sass/style.scss */
+/* line 838, ../../html/sass/style.scss */
 #contact form .input-area p {
   margin: 1rem 0;
 }
-/* line 842, ../../html/sass/style.scss */
+/* line 841, ../../html/sass/style.scss */
 #contact form .input-area input[type="text"] {
   width: 50%;
   padding: .7rem;
   border: 1px solid #aaa;
   border-radius: 5px;
 }
-/* line 848, ../../html/sass/style.scss */
+/* line 847, ../../html/sass/style.scss */
 #contact form .input-area input[type="email"] {
   width: 100%;
   padding: .7rem;
   border: 1px solid #aaa;
   border-radius: 5px;
 }
-/* line 854, ../../html/sass/style.scss */
+/* line 853, ../../html/sass/style.scss */
 #contact form .input-area textarea {
   width: 100%;
   height: 10rem;
@@ -963,11 +962,11 @@ input, textarea {
   border-radius: 5px;
   padding: .7rem;
 }
-/* line 862, ../../html/sass/style.scss */
+/* line 861, ../../html/sass/style.scss */
 #contact form .submit-right {
   text-align: right;
 }
-/* line 866, ../../html/sass/style.scss */
+/* line 865, ../../html/sass/style.scss */
 #contact input[type="submit"] {
   -webkit-appearance: noen;
   -moz-appearance: none;
@@ -983,25 +982,25 @@ input, textarea {
   -o-transition: all .4s ease;
   transition: all .4s ease;
 }
-/* line 880, ../../html/sass/style.scss */
+/* line 879, ../../html/sass/style.scss */
 #contact input[type="submit"]:hover {
   background: #fff;
 }
-/* line 884, ../../html/sass/style.scss */
+/* line 883, ../../html/sass/style.scss */
 #contact .explain-area {
   margin: 1rem 0;
 }
-/* line 886, ../../html/sass/style.scss */
+/* line 885, ../../html/sass/style.scss */
 #contact .explain-area p {
   font-size: .75rem;
 }
 
-/* line 891, ../../html/sass/style.scss */
+/* line 890, ../../html/sass/style.scss */
 .download-btn {
   width: 210px;
   text-align: center;
 }
-/* line 894, ../../html/sass/style.scss */
+/* line 893, ../../html/sass/style.scss */
 .download-btn a {
   display: block;
   background: #fccf00;
@@ -1010,7 +1009,7 @@ input, textarea {
   font-size: .75rem;
   padding: .5rem 0;
 }
-/* line 901, ../../html/sass/style.scss */
+/* line 900, ../../html/sass/style.scss */
 .download-btn a:hover {
   background: #fff;
 }
