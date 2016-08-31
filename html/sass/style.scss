@@ -112,20 +112,7 @@ a,label,input[type="submit"] {
 	position: relative;
 }
 // コンテンツ全体
-#wrapper {
-	#top {
-	}
-	#concept {
-	}
-	#action {
-	}
-	#about {		
-	}
-	#service {
-	}
-	#contact {
-	}
-}
+
 .content-ttl {
 	font-size: 1.55rem;
 	font-style: italic;
@@ -481,7 +468,6 @@ a,label,input[type="submit"] {
 				&.ja {
 					padding: 0 0 0 5px;
 					font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
-					// font-family: '游明朝体';
 					font-size: .75rem;
 					position: relative;
 					&:before {
@@ -509,7 +495,6 @@ a,label,input[type="submit"] {
 						width: 23%;
 						.date {
 							font-size: .75rem;
-							// font-family: '游ゴシック体';
 							margin: 0 .5rem 0 0;
 						}
 						.news-category {
@@ -534,7 +519,6 @@ a,label,input[type="submit"] {
 						  display: block;
 							a {
 								font-size: .75rem;
-								// font-family: '游ゴシック体';
 								&:hover {
 									text-decoration: underline;
 								}
@@ -552,11 +536,11 @@ a,label,input[type="submit"] {
 #concept {
 	.main-visual {
 		.main-ttl-area {
+			font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 			text-align: left;
 			.main-ttl {
 				font-size: .75rem;
-				font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
-		    font-style: italic;
+				font-style: italic;
 		    margin: 0 0 .5rem;
 			}
 			.ttl {
@@ -611,7 +595,6 @@ a,label,input[type="submit"] {
 					}
 					.mission-explain {
 				    font-size: .8rem;
-				    // font-family: '游ゴシック体';
 				    line-height: 1.7rem;
 					}
 					&:last-child {
@@ -660,13 +643,11 @@ a,label,input[type="submit"] {
 						font-size: .8125rem;
 						font-weight: bold;
 						color: #385571;
-						// font-family: "游ゴシック体";
 						margin: 1rem 0;
 					}
 					&.explain {
 						text-align: left;
 						font-size: .75rem;
-						// font-family: "游ゴシック体";
 					}
 				}
 			}
@@ -703,13 +684,10 @@ a,label,input[type="submit"] {
 					vertical-align: top;
 					.position {
 						font-size: .75rem;
-						// font-family: '游ゴシック体';
 						margin: 0 0 1rem;
 					}
 					.name {
 						font-size: 1.375rem;
-						font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
-						// font-family: 'ヒラギノ';
 						margin: 0 0 .5rem;
 						.en {
 							font-size: .625rem;
@@ -718,11 +696,9 @@ a,label,input[type="submit"] {
 					}
 					.work {
 						font-size: .75rem;
-						// font-family: '游ゴシック体';
 					}
 					.introduction {
 						font-size: .75rem;
-						// font-family: '游ゴシック体';
 						line-height: 1.5rem;
 						margin: 2rem 0 0;
 						position: relative;
@@ -748,7 +724,6 @@ a,label,input[type="submit"] {
 			vertical-align: top;
 			.outline-ttl {
 				font-size: .8rem;
-				// font-family: '游ゴシック体';
 				font-weight: bold;
 			}
 		}
@@ -764,7 +739,6 @@ a,label,input[type="submit"] {
 						th {
 							font-weight: normal;
 							font-size: .8125rem;
-							// font-family: '游ゴシック体';
 							width: 18%;
 							text-align: left;
 							padding: .5rem 0;
@@ -772,7 +746,6 @@ a,label,input[type="submit"] {
 						}
 						td {
 							font-size: .8125rem;
-							// font-family: '游ゴシック体';
 							width: 82%;
 							padding: .5rem 0;
 							line-height: 1.5rem;
@@ -817,7 +790,6 @@ a,label,input[type="submit"] {
 					font-size: 1rem;
 					font-weight: bold;
 					font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
-					// font-family: 'ヒラギノ';
 					color: #385571;
 					margin: .5rem 0 0;
 				}
@@ -935,32 +907,5 @@ a,label,input[type="submit"] {
 		&:hover {
 			background: #fff;
 		}
-	}
-}
-/*---------------------
-	top
----------------------*/
-#top {
-	
-}
-/*---------------------
-	top
----------------------*/
-#top {
-	
-}
-/*---------------------
-		スマホ対応
----------------------*/
-@media only screen and (max-width:640px){
-	.sp {
-		display: block;
-	}
-	.pc {
-		display: none;
-	}
-	.container {
-		width: 97%; // 任意のサイズ
-		margin: 0 auto;
 	}
 }
