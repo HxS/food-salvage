@@ -71,6 +71,9 @@ a,label,input[type="submit"] {
 		cursor: pointer;
 	}
 }
+input,textarea {
+	font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
 /*---------------------
 		共通クラス
 ---------------------*/
@@ -82,14 +85,6 @@ a,label,input[type="submit"] {
 		display: block;
 	}
 }
-
-.sp {
-  display: none;
-}
-.pc {
-  display: block;
-}
-
 // 横幅の管理
 .container {
 	width: 960px; //任意のサイズ
