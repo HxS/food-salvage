@@ -238,7 +238,7 @@ input, textarea {
 }
 /* line 205, ../../html/sass/style.scss */
 #contents .contact-link-area {
-  background: #fccf00;
+  background-image: url("../images/footer.png");
   text-align: center;
   padding: 1.5rem 0 2rem;
 }
