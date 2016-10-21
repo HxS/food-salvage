@@ -643,7 +643,9 @@ input, textarea {
   width: 49%;
   text-align: left;
 }
-
+.foodloss-img img{
+  height:150px;
+}
 /*---------------------
 	action
 ---------------------*/
