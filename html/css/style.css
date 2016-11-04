@@ -1,18 +1,9 @@
 @charset "UTF-8";
 /*---------------------
-		フォント設定
----------------------*/
-/*
-@font-face {
-	font-family: 'rounded';
-	font-weight: normal;
-	src: url('../fonts/rounded-mplus-2p-light.ttf')  format('truetype');
-} */
-/*---------------------
 		タグ初期設定
 ---------------------*/
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
-/* line 18, ../../html/sass/style.scss */
+/* line 6, ../../html/sass/style.scss */
 * {
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -24,7 +15,7 @@
   vertical-align: middle;
 }
 
-/* line 29, ../../html/sass/style.scss */
+/* line 17, ../../html/sass/style.scss */
 html,
 body {
   min-height: 100%;
@@ -36,93 +27,105 @@ body {
   font-size: 16px;
 }
 
-/* line 41, ../../html/sass/style.scss */
+/* line 29, ../../html/sass/style.scss */
 body {
   font-family: "メイリオ" ,Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 }
 
-/* line 45, ../../html/sass/style.scss */
+/* line 33, ../../html/sass/style.scss */
 img {
   max-width: 100%;
   height: auto;
   border: none;
 }
 
-/* line 51, ../../html/sass/style.scss */
+/* line 39, ../../html/sass/style.scss */
 ul li {
   list-style: none;
 }
 
-/* line 56, ../../html/sass/style.scss */
+/* line 44, ../../html/sass/style.scss */
 ol li {
   list-style: none;
 }
 
-/* line 60, ../../html/sass/style.scss */
+/* line 48, ../../html/sass/style.scss */
 a {
   color: #000;
   text-decoration: none;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
 }
-/* line 63, ../../html/sass/style.scss */
+/* line 56, ../../html/sass/style.scss */
+a:before {
+  box-sizing: border-box;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+/* line 65, ../../html/sass/style.scss */
 a:hover {
   color: #000;
+}
+
+/* line 70, ../../html/sass/style.scss */
+a:hover, label:hover, input[type="submit"]:hover {
   cursor: pointer;
-  opacity: .8;
+}
+
+/* line 74, ../../html/sass/style.scss */
+input, textarea {
+  font-family: "メイリオ" ,Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 }
 
 /*---------------------
 		共通クラス
 ---------------------*/
-/* line 73, ../../html/sass/style.scss */
+/* line 80, ../../html/sass/style.scss */
 .clearfix {
   zoom: 1;
 }
-/* line 75, ../../html/sass/style.scss */
+/* line 82, ../../html/sass/style.scss */
 .clearfix:after {
   content: ' ';
   clear: both;
   display: block;
 }
 
-/* line 82, ../../html/sass/style.scss */
-.sp {
-  display: none;
-}
-
-/* line 85, ../../html/sass/style.scss */
-.pc {
-  display: block;
-}
-
-/* line 90, ../../html/sass/style.scss */
+/* line 89, ../../html/sass/style.scss */
 .container {
   width: 960px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 95, ../../html/sass/style.scss */
+/* line 94, ../../html/sass/style.scss */
 .s-container {
   width: 798px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 100, ../../html/sass/style.scss */
+/* line 99, ../../html/sass/style.scss */
 .ss-container {
   width: 630px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 105, ../../html/sass/style.scss */
+/* line 104, ../../html/sass/style.scss */
 .service-container {
   width: 920px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 125, ../../html/sass/style.scss */
+/* line 111, ../../html/sass/style.scss */
 .content-ttl {
   font-size: 1.55rem;
   font-style: italic;
@@ -131,206 +134,252 @@ a:hover {
   font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 }
 
-/* line 135, ../../html/sass/style.scss */
+/* line 121, ../../html/sass/style.scss */
 #contents .main-visual {
   padding: 3rem 0;
   text-align: center;
 }
-/* line 138, ../../html/sass/style.scss */
+/* line 124, ../../html/sass/style.scss */
 #contents .main-visual .main-text-area {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
 }
-/* line 142, ../../html/sass/style.scss */
+/* line 128, ../../html/sass/style.scss */
 #contents .main-visual .main-text-area .ttl {
   font-size: 1.9rem;
+  font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 }
-/* line 145, ../../html/sass/style.scss */
+/* line 132, ../../html/sass/style.scss */
 #contents .main-visual .main-text-area .main-ttl {
   font-size: .75rem;
   font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
   font-style: italic;
 }
-/* line 152, ../../html/sass/style.scss */
+/* line 139, ../../html/sass/style.scss */
 #contents .main-visual .text-content p {
   font-size: .8rem;
   line-height: 1.7rem;
   padding: 1rem 0;
 }
-/* line 159, ../../html/sass/style.scss */
+/* line 145, ../../html/sass/style.scss */
 #contents .main-visual .main-logo {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 164, ../../html/sass/style.scss */
+/* line 150, ../../html/sass/style.scss */
 #contents .line-img {
   margin: 1.5rem 0;
 }
-/* line 167, ../../html/sass/style.scss */
+/* line 153, ../../html/sass/style.scss */
 #contents .page-ttl-area {
   background: #fccf00;
   text-align: center;
   padding: 2rem 0;
   font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 }
-/* line 172, ../../html/sass/style.scss */
+/* line 158, ../../html/sass/style.scss */
 #contents .page-ttl-area p {
   font-size: 1rem;
 }
-/* line 175, ../../html/sass/style.scss */
+/* line 161, ../../html/sass/style.scss */
 #contents .page-ttl-area .page-ttl {
   font-size: 1.5rem;
   color: #fff;
   font-style: italic;
   margin: 0 0 .5rem;
 }
-/* line 181, ../../html/sass/style.scss */
+/* line 167, ../../html/sass/style.scss */
 #contents .page-ttl-area .sub-ttl {
   font-size: .75rem;
   font-style: italic;
 }
-/* line 186, ../../html/sass/style.scss */
+/* line 172, ../../html/sass/style.scss */
 #contents .dot-box-area {
   margin: 2rem 0 4rem;
 }
-/* line 188, ../../html/sass/style.scss */
+/* line 174, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box {
   border: 3px dotted #385571;
   border-radius: 5px;
   padding: 2rem 2.25rem;
 }
-/* line 195, ../../html/sass/style.scss */
+/* line 178, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .left-area {
   display: inline-block;
   vertical-align: top;
 }
-/* line 198, ../../html/sass/style.scss */
+/* line 181, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .left-area p {
   font-weight: bold;
 }
-/* line 200, ../../html/sass/style.scss */
+/* line 183, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .left-area p.b-txt {
   font-size: .95rem;
 }
-/* line 203, ../../html/sass/style.scss */
+/* line 186, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .left-area p.s-txt {
   font-size: .6px;
 }
-/* line 208, ../../html/sass/style.scss */
+/* line 191, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .right-area {
   display: inline-block;
   vertical-align: top;
 }
-/* line 211, ../../html/sass/style.scss */
+/* line 194, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .right-area p {
   font-size: .75rem;
   line-height: 1.5rem;
   margin: 0 0 1rem;
 }
-/* line 215, ../../html/sass/style.scss */
+/* line 198, ../../html/sass/style.scss */
 #contents .dot-box-area .dot-box .right-area p:last-child {
   margin: 0;
 }
-/* line 222, ../../html/sass/style.scss */
+/* line 205, ../../html/sass/style.scss */
 #contents .contact-link-area {
-  background: #fccf00;
+  background-image: url("../images/footer.png");
   text-align: center;
   padding: 1.5rem 0 2rem;
 }
-/* line 226, ../../html/sass/style.scss */
+/* line 209, ../../html/sass/style.scss */
 #contents .contact-link-area p {
   margin: 0 0 1rem;
   font-size: .85rem;
 }
-/* line 231, ../../html/sass/style.scss */
+/* line 214, ../../html/sass/style.scss */
 #contents .contact-link-area .contact-link-list li {
   display: inline-block;
   width: 48%;
   margin: 0 .5rem 0 0;
 }
-/* line 235, ../../html/sass/style.scss */
+/* line 218, ../../html/sass/style.scss */
 #contents .contact-link-area .contact-link-list li:last-child {
   margin: 0;
 }
-/* line 238, ../../html/sass/style.scss */
+/* line 221, ../../html/sass/style.scss */
 #contents .contact-link-area .contact-link-list li a {
   display: block;
+  position: relative;
 }
-/* line 244, ../../html/sass/style.scss */
+/* line 224, ../../html/sass/style.scss */
+#contents .contact-link-area .contact-link-list li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 0px solid #fccf00;
+}
+/* line 235, ../../html/sass/style.scss */
+#contents .contact-link-area .contact-link-list li a:hover:before {
+  border: 15px solid #fccf00;
+}
+/* line 240, ../../html/sass/style.scss */
 #contents .contact-link-area .contact-link-list li:last-child {
   margin: 0;
 }
-/* line 250, ../../html/sass/style.scss */
+/* line 246, ../../html/sass/style.scss */
 #contents .party-area {
   padding: 1.5rem 0;
 }
-/* line 252, ../../html/sass/style.scss */
+/* line 248, ../../html/sass/style.scss */
 #contents .party-area .party-logo {
   width: 10rem;
   margin: 0 auto;
 }
-/* line 255, ../../html/sass/style.scss */
+/* line 251, ../../html/sass/style.scss */
 #contents .party-area .party-logo a {
   display: block;
+}
+/* line 253, ../../html/sass/style.scss */
+#contents .party-area .party-logo a:hover {
+  opacity: .5;
 }
 
 /*---------------------
 		ヘッダー
 ---------------------*/
-/* line 264, ../../html/sass/style.scss */
+/* line 263, ../../html/sass/style.scss */
 #header {
   border-top: 10px solid #fccf00;
   padding: .5rem 0;
 }
-/* line 267, ../../html/sass/style.scss */
+/* line 266, ../../html/sass/style.scss */
 #header .head-logo {
   display: inline-block;
   width: 13rem;
 }
-/* line 270, ../../html/sass/style.scss */
+/* line 269, ../../html/sass/style.scss */
 #header .head-logo a {
   display: block;
 }
-/* line 274, ../../html/sass/style.scss */
+/* line 273, ../../html/sass/style.scss */
 #header .head-list-wrap {
   display: inline-block;
   width: 77%;
   text-align: right;
 }
-/* line 278, ../../html/sass/style.scss */
+/* line 277, ../../html/sass/style.scss */
 #header .head-list-wrap .nav-list {
   display: inline-block;
   width: 80%;
   text-align: right;
   font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 }
-/* line 283, ../../html/sass/style.scss */
+/* line 282, ../../html/sass/style.scss */
 #header .head-list-wrap .nav-list li {
   display: inline-block;
   margin: 0 1rem 0 0;
 }
-/* line 286, ../../html/sass/style.scss */
+/* line 285, ../../html/sass/style.scss */
 #header .head-list-wrap .nav-list li a {
   font-size: .8rem;
   font-style: italic;
+  position: relative;
 }
-/* line 292, ../../html/sass/style.scss */
+/* line 289, ../../html/sass/style.scss */
+#header .head-list-wrap .nav-list li a:before {
+  content: "";
+  display: block;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+}
+/* line 303, ../../html/sass/style.scss */
+#header .head-list-wrap .nav-list li a:hover:before {
+  width: 100%;
+  height: 2px;
+  background-color: #fccf00;
+}
+/* line 312, ../../html/sass/style.scss */
 #header .head-list-wrap .sns-list {
   display: inline-block;
   width: 17%;
 }
-/* line 295, ../../html/sass/style.scss */
+/* line 315, ../../html/sass/style.scss */
 #header .head-list-wrap .sns-list li {
   display: inline-block;
   width: 2rem;
   margin: 0 1rem 0 0;
 }
-/* line 299, ../../html/sass/style.scss */
+/* line 319, ../../html/sass/style.scss */
 #header .head-list-wrap .sns-list li a {
   display: block;
 }
-/* line 305, ../../html/sass/style.scss */
+/* line 321, ../../html/sass/style.scss */
+#header .head-list-wrap .sns-list li a:hover {
+  opacity: .5;
+}
+/* line 325, ../../html/sass/style.scss */
 #header .head-list-wrap .sns-list li:last-child {
   margin: 0;
 }
@@ -338,47 +387,51 @@ a:hover {
 /*---------------------
 		フッター
 ---------------------*/
-/* line 317, ../../html/sass/style.scss */
+/* line 337, ../../html/sass/style.scss */
 #footer .foot-link-list-area {
   background: #f0f0f0;
   padding: 1rem 0;
 }
-/* line 320, ../../html/sass/style.scss */
+/* line 340, ../../html/sass/style.scss */
 #footer .foot-link-list-area .foot-link-list {
   text-align: center;
   font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 }
-/* line 323, ../../html/sass/style.scss */
+/* line 343, ../../html/sass/style.scss */
 #footer .foot-link-list-area .foot-link-list li {
   display: inline-block;
   margin: 0 2rem 0 0;
 }
-/* line 326, ../../html/sass/style.scss */
+/* line 346, ../../html/sass/style.scss */
 #footer .foot-link-list-area .foot-link-list li:last-child {
   margin: 0;
 }
-/* line 329, ../../html/sass/style.scss */
+/* line 349, ../../html/sass/style.scss */
 #footer .foot-link-list-area .foot-link-list li a {
   font-size: .8rem;
   display: block;
   font-style: italic;
 }
-/* line 337, ../../html/sass/style.scss */
+/* line 353, ../../html/sass/style.scss */
+#footer .foot-link-list-area .foot-link-list li a:hover {
+  opacity: .5;
+}
+/* line 360, ../../html/sass/style.scss */
 #footer .copyright-area {
   background: #385571;
   padding: 1rem 0;
 }
-/* line 340, ../../html/sass/style.scss */
+/* line 363, ../../html/sass/style.scss */
 #footer .copyright-area p {
   display: inline-block;
   color: #fff;
   font-size: .7rem;
 }
-/* line 344, ../../html/sass/style.scss */
+/* line 367, ../../html/sass/style.scss */
 #footer .copyright-area p.copyright-text {
   width: 28%;
 }
-/* line 347, ../../html/sass/style.scss */
+/* line 370, ../../html/sass/style.scss */
 #footer .copyright-area p.text {
   text-align: right;
   width: 70%;
@@ -387,7 +440,7 @@ a:hover {
 /*---------------------
 	to-top
 ---------------------*/
-/* line 357, ../../html/sass/style.scss */
+/* line 380, ../../html/sass/style.scss */
 #to-top {
   position: fixed;
   right: 0;
@@ -396,7 +449,7 @@ a:hover {
   width: 4rem;
   z-index: 100;
 }
-/* line 364, ../../html/sass/style.scss */
+/* line 387, ../../html/sass/style.scss */
 #to-top a {
   display: block;
 }
@@ -404,47 +457,68 @@ a:hover {
 /*---------------------
 	top
 ---------------------*/
-/* line 374, ../../html/sass/style.scss */
+/* line 397, ../../html/sass/style.scss */
 #top .main-visual .main-text-area {
-  width: 55%;
+  width: 100%;
 }
-/* line 376, ../../html/sass/style.scss */
+/* line 399, ../../html/sass/style.scss */
 #top .main-visual .main-text-area .ttl {
   font-size: 2.1rem;
 }
-/* line 380, ../../html/sass/style.scss */
+/* line 403, ../../html/sass/style.scss */
 #top .main-visual .main-text-area p.main-text {
   font-size: 4rem;
 }
-/* line 388, ../../html/sass/style.scss */
+/* line 411, ../../html/sass/style.scss */
 #top .main-visual .main-logo {
-  width: 43%;
+  /* width: 38.5%; */
 }
-/* line 393, ../../html/sass/style.scss */
+/* line 416, ../../html/sass/style.scss */
 #top .banner-list-area .banner-list {
   text-align: center;
 }
-/* line 395, ../../html/sass/style.scss */
+/* line 418, ../../html/sass/style.scss */
 #top .banner-list-area .banner-list li {
   display: inline-block;
   width: 310px;
   margin: 0 .5rem 0 0;
+  overflow: hidden;
 }
-/* line 399, ../../html/sass/style.scss */
+/* line 423, ../../html/sass/style.scss */
+#top .banner-list-area .banner-list li a {
+  display: block;
+  position: relative;
+}
+/* line 426, ../../html/sass/style.scss */
+#top .banner-list-area .banner-list li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 0px solid #fccf00;
+}
+/* line 437, ../../html/sass/style.scss */
+#top .banner-list-area .banner-list li a:hover:before {
+  border: 15px solid #fccf00;
+}
+/* line 443, ../../html/sass/style.scss */
 #top .banner-list-area .banner-list li:last-child {
   margin: 0;
 }
-/* line 405, ../../html/sass/style.scss */
+/* line 449, ../../html/sass/style.scss */
 #top .news-area {
   padding: 3rem 0;
 }
-/* line 407, ../../html/sass/style.scss */
+/* line 451, ../../html/sass/style.scss */
 #top .news-area .title-area {
   display: inline-block;
   width: 25%;
   vertical-align: top;
 }
-/* line 412, ../../html/sass/style.scss */
+/* line 456, ../../html/sass/style.scss */
 #top .news-area .title-area p.en {
   font-size: 1.25rem;
   font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
@@ -452,13 +526,13 @@ a:hover {
   margin: 0 0 1rem;
   color: #385571;
 }
-/* line 419, ../../html/sass/style.scss */
+/* line 463, ../../html/sass/style.scss */
 #top .news-area .title-area p.ja {
   padding: 0 0 0 5px;
   font-size: .75rem;
   position: relative;
 }
-/* line 424, ../../html/sass/style.scss */
+/* line 467, ../../html/sass/style.scss */
 #top .news-area .title-area p.ja:before {
   content: "";
   position: absolute;
@@ -469,44 +543,44 @@ a:hover {
   background: #fccf00;
   margin: -.5rem 0 0 .5rem;
 }
-/* line 437, ../../html/sass/style.scss */
+/* line 480, ../../html/sass/style.scss */
 #top .news-area .news-list-area {
   display: inline-block;
   width: 73%;
 }
-/* line 441, ../../html/sass/style.scss */
+/* line 484, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li {
   border-bottom: 1px solid #eee;
   padding: .5rem 0;
 }
-/* line 444, ../../html/sass/style.scss */
+/* line 487, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info {
   display: inline-block;
   width: 23%;
 }
-/* line 447, ../../html/sass/style.scss */
+/* line 490, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info .date {
   font-size: .75rem;
   margin: 0 .5rem 0 0;
 }
-/* line 452, ../../html/sass/style.scss */
+/* line 494, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info .news-category {
   background: #fccf00;
   font-size: .75rem;
   font-style: italic;
 }
-/* line 457, ../../html/sass/style.scss */
+/* line 499, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .info .category {
   font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
   padding: .2rem 1.5rem;
 }
-/* line 462, ../../html/sass/style.scss */
+/* line 504, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area {
   display: inline-block;
   width: 75%;
   overflow: hidden;
 }
-/* line 466, ../../html/sass/style.scss */
+/* line 508, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area .news-title {
   display: inline-block;
   text-overflow: ellipsis;
@@ -514,11 +588,11 @@ a:hover {
   white-space: nowrap;
   display: block;
 }
-/* line 472, ../../html/sass/style.scss */
+/* line 514, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area .news-title a {
   font-size: .75rem;
 }
-/* line 475, ../../html/sass/style.scss */
+/* line 516, ../../html/sass/style.scss */
 #top .news-area .news-list-area .news-list li .news-title-area .news-title a:hover {
   text-decoration: underline;
 }
@@ -526,66 +600,68 @@ a:hover {
 /*---------------------
 	concept
 ---------------------*/
-/* line 491, ../../html/sass/style.scss */
+/* line 532, ../../html/sass/style.scss */
 #concept .main-visual .main-ttl-area {
+  font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
   text-align: left;
 }
-/* line 493, ../../html/sass/style.scss */
+/* line 535, ../../html/sass/style.scss */
 #concept .main-visual .main-ttl-area .main-ttl {
   font-size: .75rem;
-  font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
   font-style: italic;
   margin: 0 0 .5rem;
 }
-/* line 499, ../../html/sass/style.scss */
+/* line 540, ../../html/sass/style.scss */
 #concept .main-visual .main-ttl-area .ttl {
   font-size: 1.9rem;
   line-height: 2.8rem;
 }
-/* line 504, ../../html/sass/style.scss */
+/* line 545, ../../html/sass/style.scss */
 #concept .main-visual .main-text-area {
   width: 53%;
 }
-/* line 507, ../../html/sass/style.scss */
+/* line 548, ../../html/sass/style.scss */
 #concept .main-visual .main-logo {
   width: 45%;
 }
-/* line 509, ../../html/sass/style.scss */
+/* line 550, ../../html/sass/style.scss */
 #concept .main-visual .main-logo p {
   font-size: .6rem;
   text-align: right;
 }
-/* line 516, ../../html/sass/style.scss */
+/* line 557, ../../html/sass/style.scss */
 #concept .dot-box-area .dot-box {
   text-align: center;
 }
-/* line 518, ../../html/sass/style.scss */
+/* line 559, ../../html/sass/style.scss */
 #concept .dot-box-area .dot-box .left-area {
   width: 49%;
   text-align: left;
 }
-/* line 522, ../../html/sass/style.scss */
+/* line 563, ../../html/sass/style.scss */
 #concept .dot-box-area .dot-box .right-area {
   width: 49%;
   text-align: left;
 }
-
+.foodloss-img img{
+  height:150px;
+}
 /*---------------------
 	action
 ---------------------*/
-/* line 534, ../../html/sass/style.scss */
+/* line 575, ../../html/sass/style.scss */
 #action .main-visual .main-text-area {
   width: 50%;
 }
-/* line 536, ../../html/sass/style.scss */
+/* line 577, ../../html/sass/style.scss */
 #action .main-visual .main-text-area .mission-list {
   margin: 3rem 0 0;
 }
-/* line 538, ../../html/sass/style.scss */
+/* line 579, ../../html/sass/style.scss */
 #action .main-visual .main-text-area .mission-list li {
   margin: 0 0 3rem;
 }
-/* line 540, ../../html/sass/style.scss */
+/* line 581, ../../html/sass/style.scss */
 #action .main-visual .main-text-area .mission-list li .mission-ttl {
   font-family: "Times New Roman", Garamond, "Roboto Slab" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
   font-style: italic;
@@ -595,54 +671,54 @@ a:hover {
   margin: 0 0 .5rem;
   width: 90%;
 }
-/* line 549, ../../html/sass/style.scss */
+/* line 590, ../../html/sass/style.scss */
 #action .main-visual .main-text-area .mission-list li .mission-explain {
   font-size: .8rem;
   line-height: 1.7rem;
 }
-/* line 554, ../../html/sass/style.scss */
+/* line 594, ../../html/sass/style.scss */
 #action .main-visual .main-text-area .mission-list li:last-child {
   margin: 0;
 }
-/* line 560, ../../html/sass/style.scss */
+/* line 600, ../../html/sass/style.scss */
 #action .main-visual .main-logo {
   width: 48%;
 }
-/* line 563, ../../html/sass/style.scss */
+/* line 603, ../../html/sass/style.scss */
 #action .main-visual .right-text-area {
   display: inline-block;
   width: 48%;
   text-align: left;
   padding: 1rem 0 0 1.5rem;
 }
-/* line 572, ../../html/sass/style.scss */
+/* line 612, ../../html/sass/style.scss */
 #action .dot-box-area .dot-box .left-area {
   width: 35%;
 }
-/* line 575, ../../html/sass/style.scss */
+/* line 615, ../../html/sass/style.scss */
 #action .dot-box-area .dot-box .right-area {
   width: 63%;
 }
-/* line 581, ../../html/sass/style.scss */
+/* line 621, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list {
   text-align: center;
 }
-/* line 583, ../../html/sass/style.scss */
+/* line 623, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list li {
   display: inline-block;
   width: 31%;
   margin: 0 1.4rem 2rem 0;
 }
-/* line 587, ../../html/sass/style.scss */
+/* line 627, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list li:nth-child(3n) {
   margin: 0 0 2rem;
 }
-/* line 590, ../../html/sass/style.scss */
+/* line 630, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list li .salvage-list-img {
   width: 10rem;
   margin: 0 auto;
 }
-/* line 595, ../../html/sass/style.scss */
+/* line 635, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list li p.salvage-ttl {
   text-align: center;
   font-size: .8125rem;
@@ -650,7 +726,7 @@ a:hover {
   color: #385571;
   margin: 1rem 0;
 }
-/* line 603, ../../html/sass/style.scss */
+/* line 642, ../../html/sass/style.scss */
 #action .salvage-list-area .salvage-list li p.explain {
   text-align: left;
   font-size: .75rem;
@@ -659,60 +735,60 @@ a:hover {
 /*---------------------
 	about
 ---------------------*/
-/* line 620, ../../html/sass/style.scss */
+/* line 658, ../../html/sass/style.scss */
 #about .about-content {
   margin: 3rem 0;
 }
-/* line 625, ../../html/sass/style.scss */
+/* line 663, ../../html/sass/style.scss */
 #about .team-area .team-list li {
   margin: 0 0 3rem;
 }
-/* line 627, ../../html/sass/style.scss */
+/* line 665, ../../html/sass/style.scss */
 #about .team-area .team-list li:last-child {
   margin: 0;
 }
-/* line 630, ../../html/sass/style.scss */
+/* line 668, ../../html/sass/style.scss */
 #about .team-area .team-list li .photo-img-area {
   display: inline-block;
   width: 33%;
 }
-/* line 633, ../../html/sass/style.scss */
+/* line 671, ../../html/sass/style.scss */
 #about .team-area .team-list li .photo-img-area .photo-img {
   width: 15rem;
 }
-/* line 637, ../../html/sass/style.scss */
+/* line 675, ../../html/sass/style.scss */
 #about .team-area .team-list li .profile-area {
   display: inline-block;
   width: 66%;
   vertical-align: top;
 }
-/* line 641, ../../html/sass/style.scss */
+/* line 679, ../../html/sass/style.scss */
 #about .team-area .team-list li .profile-area .position {
   font-size: .75rem;
   margin: 0 0 1rem;
 }
-/* line 646, ../../html/sass/style.scss */
+/* line 683, ../../html/sass/style.scss */
 #about .team-area .team-list li .profile-area .name {
   font-size: 1.375rem;
   margin: 0 0 .5rem;
 }
-/* line 650, ../../html/sass/style.scss */
+/* line 686, ../../html/sass/style.scss */
 #about .team-area .team-list li .profile-area .name .en {
   font-size: .625rem;
   margin: 0 0 0 1rem;
 }
-/* line 655, ../../html/sass/style.scss */
+/* line 691, ../../html/sass/style.scss */
 #about .team-area .team-list li .profile-area .work {
   font-size: .75rem;
 }
-/* line 659, ../../html/sass/style.scss */
+/* line 694, ../../html/sass/style.scss */
 #about .team-area .team-list li .profile-area .introduction {
   font-size: .75rem;
   line-height: 1.5rem;
   margin: 2rem 0 0;
   position: relative;
 }
-/* line 665, ../../html/sass/style.scss */
+/* line 699, ../../html/sass/style.scss */
 #about .team-area .team-list li .profile-area .introduction:before {
   content: "";
   position: absolute;
@@ -723,32 +799,32 @@ a:hover {
   background: #000;
   margin: -1rem 0 0;
 }
-/* line 681, ../../html/sass/style.scss */
+/* line 715, ../../html/sass/style.scss */
 #about .outline-area .outline-ttl-area {
   display: inline-block;
   width: 32%;
   vertical-align: top;
 }
-/* line 685, ../../html/sass/style.scss */
+/* line 719, ../../html/sass/style.scss */
 #about .outline-area .outline-ttl-area .outline-ttl {
   font-size: .8rem;
   font-weight: bold;
 }
-/* line 691, ../../html/sass/style.scss */
+/* line 724, ../../html/sass/style.scss */
 #about .outline-area .outline-table-area {
   display: inline-block;
   width: 67%;
 }
-/* line 694, ../../html/sass/style.scss */
+/* line 727, ../../html/sass/style.scss */
 #about .outline-area .outline-table-area .outline-table {
   border-collapse: collapse;
   width: 100%;
 }
-/* line 698, ../../html/sass/style.scss */
+/* line 731, ../../html/sass/style.scss */
 #about .outline-area .outline-table-area .outline-table tbody tr {
   border-bottom: 1px solid #cccccc;
 }
-/* line 700, ../../html/sass/style.scss */
+/* line 733, ../../html/sass/style.scss */
 #about .outline-area .outline-table-area .outline-table tbody tr th {
   font-weight: normal;
   font-size: .8125rem;
@@ -757,22 +833,22 @@ a:hover {
   padding: .5rem 0;
   vertical-align: top;
 }
-/* line 709, ../../html/sass/style.scss */
+/* line 741, ../../html/sass/style.scss */
 #about .outline-area .outline-table-area .outline-table tbody tr td {
   font-size: .8125rem;
   width: 82%;
   padding: .5rem 0;
   line-height: 1.5rem;
 }
-/* line 717, ../../html/sass/style.scss */
+/* line 748, ../../html/sass/style.scss */
 #about .outline-area .outline-table-area .outline-table tbody tr:first-child th {
   padding: 0 0 .5rem;
 }
-/* line 720, ../../html/sass/style.scss */
+/* line 751, ../../html/sass/style.scss */
 #about .outline-area .outline-table-area .outline-table tbody tr:first-child td {
   padding: 0 0 .5rem;
 }
-/* line 724, ../../html/sass/style.scss */
+/* line 755, ../../html/sass/style.scss */
 #about .outline-area .outline-table-area .outline-table tbody tr:last-child {
   border: none;
 }
@@ -780,25 +856,25 @@ a:hover {
 /*---------------------
 	service
 ---------------------*/
-/* line 737, ../../html/sass/style.scss */
+/* line 768, ../../html/sass/style.scss */
 #service .service-list-area {
   padding: 5rem 0;
 }
-/* line 739, ../../html/sass/style.scss */
+/* line 770, ../../html/sass/style.scss */
 #service .service-list-area .service-list {
   text-align: center;
 }
-/* line 741, ../../html/sass/style.scss */
+/* line 772, ../../html/sass/style.scss */
 #service .service-list-area .service-list li {
   float: left;
   width: 446px;
   margin: 0 1.75rem .5rem 0;
 }
-/* line 745, ../../html/sass/style.scss */
+/* line 776, ../../html/sass/style.scss */
 #service .service-list-area .service-list li:nth-child(even) {
   margin: 0 0 .5rem;
 }
-/* line 751, ../../html/sass/style.scss */
+/* line 782, ../../html/sass/style.scss */
 #service .service-list-area .service-list li p {
   text-align: center;
   font-size: 1rem;
@@ -810,29 +886,29 @@ a:hover {
 /*---------------------
 	contact
 ---------------------*/
-/* line 767, ../../html/sass/style.scss */
+/* line 797, ../../html/sass/style.scss */
 #contact .contact-area {
   padding: 4rem 0;
 }
-/* line 769, ../../html/sass/style.scss */
+/* line 799, ../../html/sass/style.scss */
 #contact .contact-area .txt {
   font-size: .8125rem;
 }
-/* line 773, ../../html/sass/style.scss */
+/* line 803, ../../html/sass/style.scss */
 #contact form {
   font-size: .75rem;
   margin: 1.5rem 0 0;
   position: relative;
 }
-/* line 777, ../../html/sass/style.scss */
+/* line 807, ../../html/sass/style.scss */
 #contact form .radio-btn-area {
   margin: 0 0 1rem;
 }
-/* line 779, ../../html/sass/style.scss */
+/* line 809, ../../html/sass/style.scss */
 #contact form .radio-btn-area label {
   margin: 0 1rem 0 0;
 }
-/* line 781, ../../html/sass/style.scss */
+/* line 811, ../../html/sass/style.scss */
 #contact form .radio-btn-area label span {
   width: 20px;
   height: 20px;
@@ -841,7 +917,7 @@ a:hover {
   display: inline-block;
   margin: 0 .5rem 0 0;
 }
-/* line 789, ../../html/sass/style.scss */
+/* line 819, ../../html/sass/style.scss */
 #contact form .radio-btn-area label input[type="radio"] {
   margin: 0px 0 0 1px;
   appearance: none;
@@ -853,34 +929,34 @@ a:hover {
   background: transparent;
   border-radius: 5px;
 }
-/* line 799, ../../html/sass/style.scss */
+/* line 829, ../../html/sass/style.scss */
 #contact form .radio-btn-area label input[type="radio"]:checked {
   background: #cccccc;
   outline: none;
 }
-/* line 806, ../../html/sass/style.scss */
+/* line 836, ../../html/sass/style.scss */
 #contact form .input-area {
   margin: 1rem 0;
 }
-/* line 808, ../../html/sass/style.scss */
+/* line 838, ../../html/sass/style.scss */
 #contact form .input-area p {
   margin: 1rem 0;
 }
-/* line 811, ../../html/sass/style.scss */
+/* line 841, ../../html/sass/style.scss */
 #contact form .input-area input[type="text"] {
   width: 50%;
   padding: .7rem;
   border: 1px solid #aaa;
   border-radius: 5px;
 }
-/* line 817, ../../html/sass/style.scss */
+/* line 847, ../../html/sass/style.scss */
 #contact form .input-area input[type="email"] {
   width: 100%;
   padding: .7rem;
   border: 1px solid #aaa;
   border-radius: 5px;
 }
-/* line 823, ../../html/sass/style.scss */
+/* line 853, ../../html/sass/style.scss */
 #contact form .input-area textarea {
   width: 100%;
   height: 10rem;
@@ -888,53 +964,54 @@ a:hover {
   border-radius: 5px;
   padding: .7rem;
 }
-/* line 831, ../../html/sass/style.scss */
+/* line 861, ../../html/sass/style.scss */
 #contact form .submit-right {
   text-align: right;
 }
-/* line 835, ../../html/sass/style.scss */
+/* line 865, ../../html/sass/style.scss */
 #contact input[type="submit"] {
   -webkit-appearance: noen;
   -moz-appearance: none;
   appearance: none;
   background: #fccf00;
-  border: 1px solid #fccf00;
+  border: 3px solid #fccf00;
   border-radius: 5px;
   width: 210px;
   height: 46px;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
 }
-/* line 845, ../../html/sass/style.scss */
+/* line 879, ../../html/sass/style.scss */
+#contact input[type="submit"]:hover {
+  background: #fff;
+}
+/* line 883, ../../html/sass/style.scss */
 #contact .explain-area {
   margin: 1rem 0;
 }
-/* line 847, ../../html/sass/style.scss */
+/* line 885, ../../html/sass/style.scss */
 #contact .explain-area p {
   font-size: .75rem;
 }
 
-/*---------------------
-	top
----------------------*/
-/*---------------------
-	top
----------------------*/
-/*---------------------
-		スマホ対応
----------------------*/
-@media only screen and (max-width: 640px) {
-  /* line 868, ../../html/sass/style.scss */
-  .sp {
-    display: block;
-  }
-
-  /* line 871, ../../html/sass/style.scss */
-  .pc {
-    display: none;
-  }
-
-  /* line 874, ../../html/sass/style.scss */
-  .container {
-    width: 97%;
-    margin: 0 auto;
-  }
+/* line 890, ../../html/sass/style.scss */
+.download-btn {
+  width: 210px;
+  text-align: center;
+}
+/* line 893, ../../html/sass/style.scss */
+.download-btn a {
+  display: block;
+  background: #fccf00;
+  border: 3px solid #fccf00;
+  border-radius: 5px;
+  font-size: .75rem;
+  padding: .5rem 0;
+}
+/* line 900, ../../html/sass/style.scss */
+.download-btn a:hover {
+  background: #fff;
 }

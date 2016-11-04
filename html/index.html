@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta charset="utf-8">
 
 	<title>Food Salvage inc.</title>
@@ -9,25 +9,107 @@
 	<meta name="keywords" content="">
 	<link rel="shortcut icon" href="">
 
-	<link rel="stylesheet" href="../wp/css/font-awesome.css">
-	<link rel="stylesheet" href="../wp/css/style.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/animate.css">
 
 	<!--[if lt IE 9]>
-		<script type="text/javascript" src="../wp/js/html5.js"></script>
-		<script type="text/javascript" src="../wp/js/css3-mediaqueries.js"></script>
+		<script type="text/javascript" src="./js/html5.js"></script>
+		<script type="text/javascript" src="./js/css3-mediaqueries.js"></script>
 	<![endif]-->
 	<!--[if (gte IE 6)&(lte IE 8)]>
-		<script type="text/javascript" src="../wp/js/selectivizr-min.js"></script>
+		<script type="text/javascript" src="./js/selectivizr-min.js"></script>
 	<![endif]-->
 
 
+  <style>
+    #contents .s-container{
+      height: 355px;
+    }
+    #contents .main-text-area{
+      position:absolute;
+      top: 152px;
+      left: 6px;
+      opacity:0;
+      animation-fill-mode:forwards;
+      animation-duration: 3s;
+      animation-delay: 3s;
+      animation-name: fadein;
+    }
+    #logo-upside{
+      width:262px;
+      position:absolute;
+      top:6px;
+      left: 488px;
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
+    #logo-downside{
+      width:343px;
+      position:absolute;
+      bottom:5px;
+      left: 449px;
+      opacity:0;
+      animation-fill-mode:forwards;
+      animation-duration: 3s;
+      animation-delay: 5s;
+      animation-name: fadein;
+    }
+    @keyframes slidein {
+      from {
+        left: 0;
+        transform: rotate(0deg);
+      }
+
+      to {
+        left: 488px;
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+    .sns:hover {
+		-webkit-animation: spin 1.5s linear infinite;
+		-moz-animation: spin 1.5s linear infinite;
+		-ms-animation: spin 1.5s linear infinite;
+		-o-animation: spin 1.5s linear infinite;
+		animation: spin 1.5s linear infinite;
+	}
+
+	@-webkit-keyframes spin {
+		0% {-webkit-transform: rotateY(0deg);}
+		100% {-webkit-transform: rotateY(360deg);}
+	}
+	@-moz-keyframes spin {
+		0% {-moz-transform: rotateY(0deg);}
+		100% {-moz-transform: rotateY(360deg);}
+	}
+	@-ms-keyframes spin {
+		0% {-ms-transform: rotateY(0deg);}
+		100% {-ms-transform: rotateY(360deg);}
+	}
+	@-o-keyframes spin {
+		0% {-o-transform: rotateY(0deg);}
+		100% {-o-transform: rotateY(360deg);}
+	}
+	@keyframes spin {
+		0% {transform: rotateY(0deg);}
+		100% {transform: rotateY(360deg);}
+	}
+  </style>
 </head>
 <body>
 
-	<header id="header" class="clearfix">
+	<header id="header" class="clearfix wow fadeInDown">
 		<div class="container">
-			
-			<div class="head-logo"><h1><a href="#"><img src="../wp/images/logo-nav.png" alt="Food Salvage inc."></a></h1></div>
+
+			<div class="head-logo"><h1><a href="#"><img src="./images/logo-nav.png" alt="Food Salvage inc."></a></h1></div>
 
 			<div class="head-list-wrap">
 				<ul class="nav-list">
@@ -39,8 +121,8 @@
 				</ul>
 
 				<ul class="sns-list">
-					<li><a href="https://twitter.com/salvageparty" target="_blank"><img src="../wp/images/icon-twitter.png" alt="twitter"></a></li>
-					<li><a href="https://www.facebook.com/salvage.party/" target="_blank"><img src="../wp/images/icon-facebook.png" alt="facebook"></a></li>
+					<li><a href="https://twitter.com/salvageparty" target="_blank"><img src="./images/icon-twitter.png" alt="twitter" class="sns"></a></li>
+					<li><a href="https://www.facebook.com/salvage.party/" target="_blank"><img src="./images/icon-facebook.png" alt="facebook" class="sns"></a></li>
 				</ul>
 			</div>
 
@@ -59,22 +141,23 @@
 							<p class="ttl">「捨てる」を、「救う」に。</p>
 						</div>
 						<div class="main-logo">
-							<img src="../wp/images/logo-big.png">
+							<img id="logo-upside" src="./images/logo-big-upside.png">
+							<img id="logo-downside" src="./images/logo-big-downside.png">
 						</div>
 					</div>
 				</div>
 
-				<div class="banner-list-area">
+				<div class="banner-list-area wow slideInUp">
 					<div class="container">
 						<ul class="banner-list">
-							<li><a href="./concept.html"><img src="../wp/images/banner-concept.png" alt="CONCEPT | ブランドコンセプト"></a></li>
-							<li><a href="./action.html"><img src="../wp/images/banner-action.png" alt="ACTION | フードサルベージが出来ること"></a></li>
-							<li><a href="./service.html"><img src="../wp/images/banner-service.png" alt="SERVICE | サービス一覧"></a></li>
+							<li><a href="./concept.html"><img src="./images/banner-concept.png" alt="CONCEPT | ブランドコンセプト"></a></li>
+							<li><a href="./action.html"><img src="./images/banner-action.png" alt="ACTION | フードサルベージが出来ること"></a></li>
+							<li><a href="./service.html"><img src="./images/banner-service.png" alt="SERVICE | サービス一覧"></a></li>
 						</ul>
 					</div>
 				</div>
 
-				<div class="news-area">
+				<div class="news-area wow fadeInUp">
 					<div class="container">
 						<div class="title-area">
 							<p class="en">NEWS RELEASE</p>
@@ -124,19 +207,19 @@
 					</div>
 				</div>
 
-				<div class="contact-link-area">
+				<div class="contact-link-area wow fadeInUp">
 					<div class="ss-container">
 						<p>各種サービスに関するご質問、取材に関するお問い合わせ等はこちら。</p>
 						<ul class="contact-link-list">
-							<li><a href="./contact.html"><img src="../wp/images/button-contact.png" alt="CONTACT | お問い合わせ"></a></li>
-							<li><a href="./recruit.html"><img src="../wp/images/button-recruit.png" alt="RECRUIT | 入会案内"></a></li>
+							<li class="wow slideInLeft"><a href="./contact.html"><img src="./images/button-contact.png" alt="CONTACT | お問い合わせ"></a></li>
+							<li class="wow slideInRight"><a href="./recruit.html"><img src="./images/button-recruit.png" alt="RECRUIT | 入会案内"></a></li>
 						</ul>
 					</div>
 				</div>
 
-				<div class="party-area">
+				<div class="party-area wow fadeInUp">
 					<div class="container">
-						<div class="party-logo"><a href="http://salvageparty.com" target="_blank"><img src="../wp/images/party-logo.png" alt="Salvage Party ロゴ"></a></div>
+						<div class="party-logo"><a href="http://salvageparty.com" target="_blank"><img src="./images/party-logo.png" alt="Salvage Party ロゴ"></a></div>
 					</div>
 				</div>
 
@@ -147,7 +230,7 @@
 	</div>
 	<!-- wrapper -->
 
-	<footer id="footer">
+	<footer id="footer" class="wow fadeInUp">
 		<div class="foot-link-list-area">
 			<div class="ss-container">
 				<ul class="foot-link-list">
@@ -169,9 +252,9 @@
 	</footer>
 	<!-- footer -->
 
-	<div id="to-top"><a><img src="../wp/images/back-to-top.png" alt="top"></a></div>
+	<div id="to-top"><a><img src="./images/back-to-top.png" alt="top"></a></div>
 	<!-- to-top -->
-	
+
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
@@ -181,8 +264,13 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 
-	<script src="../wp/js/jquery.js"></script>
-	<script src="../wp/js/main.js"></script>
+	<script src="./js/jquery.js"></script>
+	<script src="./js/main.js"></script>
+	<script src="./js/wow.js"></script>
+
+	<script>
+		new WOW().init();
+	</script>
 
 
 </body>
